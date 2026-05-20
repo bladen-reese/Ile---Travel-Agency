@@ -1,0 +1,115 @@
+{
+  "country": "Ecuador",
+  "default_archetype_id": "ecuador-classic-9d",
+  "archetypes": [
+    {
+      "id": "ecuador-classic-9d",
+      "min_days": 8,
+      "max_days": 11,
+      "interests": ["nature", "wildlife", "culture"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "regions": [
+        {
+          "name": "Quito & the Middle of the World",
+          "nights": 2,
+          "stay_type": "restored colonial mansion in the historic center",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "UNESCO colonial center walk with local historian", "locked_specifics": 2 },
+            { "category": "Equatorial line and indigenous astronomy experience", "locked_specifics": 1 },
+            { "category": "Quito's emerging food scene dinner", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Amazon (Napo Province)",
+          "nights": 3,
+          "stay_type": "river-access eco-lodge with Kichwa community ties",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Canoe wildlife survey at dawn", "locked_specifics": 3 },
+            { "category": "Medicinal plant walk with community elder", "locked_specifics": 2 },
+            { "category": "Night hike for frogs and insects", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Otavalo & the northern highlands",
+          "nights": 2,
+          "stay_type": "hacienda on the Avenue of the Volcanoes",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Otavalo Saturday market (largest in the Americas)", "locked_specifics": 2 },
+            { "category": "Condor Park raptor encounter", "locked_specifics": 1 },
+            { "category": "Crater lake hike at Cuicocha", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Galápagos Islands (Santa Cruz base)",
+          "nights": 3,
+          "stay_type": "mid-range lodge in Puerto Ayora with day-trip access",
+          "stay_locked_count": 5,
+          "activities": [
+            { "category": "Tortoise reserve and Charles Darwin Research Station", "locked_specifics": 2 },
+            { "category": "Snorkeling with sea lions and marine iguanas", "locked_specifics": 3 },
+            { "category": "Island day trip by speedboat to Española or Bartolomé", "locked_specifics": 4 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Treating the Galápagos as a quick add-on — three nights minimum for Santa Cruz-based visits, five for a liveaboard that actually covers multiple islands",
+        "Visiting Otavalo market on any day other than Saturday — the midweek market is a fraction of the real thing",
+        "Flying into the Amazon without malaria prevention discussion with your doctor ahead of time",
+        "Booking a Galápagos liveaboard without checking the route map — 'Galápagos cruise' covers everything from day-boats to proper multi-day vessels with very different wildlife access"
+      ],
+      "budget_range_usd_per_person": { "low": 2800, "high": 4500 }
+    },
+    {
+      "id": "ecuador-highlands-7d",
+      "min_days": 6,
+      "max_days": 9,
+      "interests": ["culture", "nature", "adventure"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "regions": [
+        {
+          "name": "Quito",
+          "nights": 2,
+          "stay_type": "restored colonial hotel in the historic center",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Old Town UNESCO walking route", "locked_specifics": 2 },
+            { "category": "Teleferico cable car to Pichincha volcano flank", "locked_specifics": 1 }
+          ]
+        },
+        {
+          "name": "Avenue of the Volcanoes",
+          "nights": 3,
+          "stay_type": "hacienda with views of multiple volcano peaks",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Cotopaxi National Park acclimatization hike", "locked_specifics": 3 },
+            { "category": "Quilotoa crater lake loop hike", "locked_specifics": 2 },
+            { "category": "Andean village market and weaving workshop", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Baños",
+          "nights": 2,
+          "stay_type": "riverside boutique or adventure lodge",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Ruta de las Cascadas cycling descent", "locked_specifics": 2 },
+            { "category": "Tungurahua volcano viewpoint at dusk", "locked_specifics": 1 },
+            { "category": "White-water rafting on the Pastaza", "locked_specifics": 2 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Attempting Cotopaxi's upper slopes without proper acclimatization — altitude sickness is real and dangerous above 4,500m",
+        "Driving the Avenue of the Volcanoes in a rush — the haciendas along this route deserve at least two nights each to settle in",
+        "Visiting Baños during Carnival when the town becomes extremely crowded and rafting conditions are unpredictable"
+      ],
+      "budget_range_usd_per_person": { "low": 1400, "high": 2200 }
+    }
+  ]
+}

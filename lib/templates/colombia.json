@@ -1,0 +1,116 @@
+{
+  "country": "Colombia",
+  "default_archetype_id": "colombia-classic-8d",
+  "archetypes": [
+    {
+      "id": "colombia-classic-8d",
+      "min_days": 7,
+      "max_days": 10,
+      "interests": ["culture", "coffee", "nature"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "regions": [
+        {
+          "name": "Medellín",
+          "nights": 3,
+          "stay_type": "design hotel in El Poblado or Laureles",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "City transformation story & urban design walk", "locked_specifics": 2 },
+            { "category": "Local market and street food circuit", "locked_specifics": 3 },
+            { "category": "Day trip to Guatapé and El Peñol", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Coffee Region (Eje Cafetero)",
+          "nights": 3,
+          "stay_type": "working coffee hacienda with farm access",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Seed-to-cup coffee harvest experience", "locked_specifics": 3 },
+            { "category": "Wax palm forest hike in Valle del Cocora", "locked_specifics": 2 },
+            { "category": "Salento colonial town wander", "locked_specifics": 1 }
+          ]
+        },
+        {
+          "name": "Cartagena",
+          "nights": 2,
+          "stay_type": "colonial-house boutique in the walled city",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Walled city history walk at dusk", "locked_specifics": 2 },
+            { "category": "Day trip to Islas del Rosario", "locked_specifics": 2 },
+            { "category": "Rooftop sunset with Caribbean coast context", "locked_specifics": 2 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Staying in El Centro in Medellín — it's fine for day visits but El Poblado or Laureles are where you want to base yourself",
+        "Doing the Coffee Region as a day trip from Medellín — three nights minimum to actually absorb the rhythm of hacienda life",
+        "Visiting Cartagena in July or August when cruise ship traffic peaks and prices spike 40–60%",
+        "Flying between all three legs — the Medellín-to-coffee-region drive is scenic and only two hours; save flights for the final Cartagena leg"
+      ],
+      "budget_range_usd_per_person": { "low": 1600, "high": 2600 }
+    },
+    {
+      "id": "colombia-adventure-12d",
+      "min_days": 10,
+      "max_days": 14,
+      "interests": ["nature", "adventure", "wildlife", "beaches"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "regions": [
+        {
+          "name": "Bogotá",
+          "nights": 2,
+          "stay_type": "boutique hotel in La Candelaria or Chapinero",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Gold Museum and pre-Columbian history", "locked_specifics": 1 },
+            { "category": "Monserrate sunrise hike", "locked_specifics": 1 },
+            { "category": "Ciclovía and local Sunday culture", "locked_specifics": 1 }
+          ]
+        },
+        {
+          "name": "Amazon (Leticia region)",
+          "nights": 3,
+          "stay_type": "jungle lodge reachable only by boat",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Dawn birdwatching with indigenous guide", "locked_specifics": 3 },
+            { "category": "Piranha fishing and river ecology talk", "locked_specifics": 2 },
+            { "category": "Village visit and plant medicine walk", "locked_specifics": 3 }
+          ]
+        },
+        {
+          "name": "Coffee Region (Eje Cafetero)",
+          "nights": 3,
+          "stay_type": "working coffee hacienda with farm access",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Seed-to-cup coffee harvest experience", "locked_specifics": 3 },
+            { "category": "Wax palm forest hike in Valle del Cocora", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Tayrona National Park coast",
+          "nights": 3,
+          "stay_type": "eco-camp or tented lodge within park boundaries",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Lost City (Ciudad Perdida) trekking — multi-day option", "locked_specifics": 3 },
+            { "category": "Jungle-to-beach hike on Tayrona trails", "locked_specifics": 2 },
+            { "category": "Indigenous Kogi community interaction", "locked_specifics": 2 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Flying to Leticia without at least 3 nights — you can't see the real Amazon in a 48-hour visit",
+        "Booking Tayrona accommodation through generic sites — the park-approved eco-camps sell out months ahead and can't be found on booking platforms",
+        "Attempting the Lost City trek without proper fitness preparation — four days of humid jungle hiking at altitude is not a casual walk",
+        "Scheduling the Amazon leg in February or March when the river is at its lowest and wildlife disperses"
+      ],
+      "budget_range_usd_per_person": { "low": 2600, "high": 4200 }
+    }
+  ]
+}

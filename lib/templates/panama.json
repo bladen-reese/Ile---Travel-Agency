@@ -1,0 +1,116 @@
+{
+  "country": "Panama",
+  "default_archetype_id": "panama-classic-7d",
+  "archetypes": [
+    {
+      "id": "panama-classic-7d",
+      "min_days": 6,
+      "max_days": 9,
+      "interests": ["nature", "beaches", "culture"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "regions": [
+        {
+          "name": "Panama City",
+          "nights": 2,
+          "stay_type": "boutique hotel in Casco Viejo",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Old town walking & history", "locked_specifics": 2 },
+            { "category": "Canal experience", "locked_specifics": 2 },
+            { "category": "Cevichería & local food scene", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Boquete highlands",
+          "nights": 3,
+          "stay_type": "family-run eco-lodge or coffee finca",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Cloud forest hike with naturalist guide", "locked_specifics": 3 },
+            { "category": "Coffee farm experience", "locked_specifics": 2 },
+            { "category": "Hot springs or river day", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Bocas del Toro archipelago",
+          "nights": 2,
+          "stay_type": "overwater bungalow or beachfront mid-range",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Island hopping by private boat", "locked_specifics": 3 },
+            { "category": "Snorkel or surf day", "locked_specifics": 2 },
+            { "category": "Sloth sanctuary visit", "locked_specifics": 1 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Underestimating travel time between regions — internal flights between Bocas and Panama City are essential, not optional; the overland route adds a full day each way",
+        "Visiting Bocas del Toro in October or November when the Caribbean coast gets its heaviest rains and boat transfers become rough",
+        "Booking the wrong block in Casco Viejo — three streets separates boutique-charming from actively rough; our partners know which side to be on",
+        "Skipping the Miraflores Locks visitor center and just doing a canal boat transit — for first-timers, watching from the viewing platform is often more dramatic"
+      ],
+      "budget_range_usd_per_person": { "low": 1800, "high": 2800 }
+    },
+    {
+      "id": "panama-nature-10d",
+      "min_days": 9,
+      "max_days": 14,
+      "interests": ["nature", "adventure", "wildlife"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "regions": [
+        {
+          "name": "Panama City",
+          "nights": 1,
+          "stay_type": "modern hotel near the old city",
+          "stay_locked_count": 2,
+          "activities": [
+            { "category": "Canal experience", "locked_specifics": 2 },
+            { "category": "Rainforest walk in the city's metropolitan park", "locked_specifics": 1 }
+          ]
+        },
+        {
+          "name": "Bocas del Toro archipelago",
+          "nights": 3,
+          "stay_type": "eco-lodge on a quiet island",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Mangrove kayaking at dawn", "locked_specifics": 2 },
+            { "category": "Snorkeling in Bastimentos Marine Park", "locked_specifics": 3 },
+            { "category": "Night walk for wildlife", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Boquete & Chiriquí highlands",
+          "nights": 4,
+          "stay_type": "mountain lodge with garden setting",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Quetzal trail in La Amistad park", "locked_specifics": 3 },
+            { "category": "Whitewater rafting on the Chiriquí Viejo", "locked_specifics": 2 },
+            { "category": "Coffee origin experience", "locked_specifics": 2 },
+            { "category": "Cooking class using local highland produce", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Azuero Peninsula",
+          "nights": 2,
+          "stay_type": "boutique hacienda-style stay",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Sea turtle nesting beach (seasonal)", "locked_specifics": 2 },
+            { "category": "Traditional crafts village visit", "locked_specifics": 2 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Flying into Bocas on the same day you arrive in Panama City — the connection is tight and missed flights are common in rainy season",
+        "Doing the Quetzal trail without a local birding guide — the trail splits and the bird is easy to miss without trained eyes",
+        "Visiting Azuero in peak dry season without booking ahead; the hacienda-style properties fill up months in advance",
+        "Treating the Chiriquí Viejo rafting as an add-on — it deserves a full day and proper conditions"
+      ],
+      "budget_range_usd_per_person": { "low": 2400, "high": 3800 }
+    }
+  ]
+}

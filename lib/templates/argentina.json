@@ -1,0 +1,117 @@
+{
+  "country": "Argentina",
+  "default_archetype_id": "argentina-classic-10d",
+  "archetypes": [
+    {
+      "id": "argentina-classic-10d",
+      "min_days": 9,
+      "max_days": 13,
+      "interests": ["culture", "nature", "food"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "regions": [
+        {
+          "name": "Buenos Aires",
+          "nights": 4,
+          "stay_type": "design hotel in Palermo or San Telmo",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Tango milonga — watching and learning", "locked_specifics": 3 },
+            { "category": "Palermo food and wine neighbourhood walk", "locked_specifics": 3 },
+            { "category": "Recoleta Cemetery and literary café circuit", "locked_specifics": 2 },
+            { "category": "Day trip to a working estancia for asado", "locked_specifics": 3 }
+          ]
+        },
+        {
+          "name": "Mendoza wine country",
+          "nights": 3,
+          "stay_type": "boutique wine lodge in the Luján de Cuyo or Uco Valley",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Malbec tasting at a family-owned bodega", "locked_specifics": 4 },
+            { "category": "Andes foothills horseback ride with Aconcagua views", "locked_specifics": 3 },
+            { "category": "Olive oil and food pairing at an artisan producer", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Patagonia — Bariloche & the Lake District",
+          "nights": 3,
+          "stay_type": "lakefront lodge with mountain views",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Circuito Chico lakeside drive and hike", "locked_specifics": 2 },
+            { "category": "Full-day trekking in Nahuel Huapi National Park", "locked_specifics": 3 },
+            { "category": "Craft beer and chocolate tasting in Bariloche", "locked_specifics": 2 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Treating Buenos Aires as a transit hub — four nights is the minimum to feel the city's rhythm; most people want a fifth after the fact",
+        "Visiting Mendoza in January or February when harvest hasn't started and temperatures hit 38°C — March to May is harvest season and the real experience",
+        "Booking Bariloche in ski season (July–August) if your goal is hiking — the trails are snow-covered and the town is packed with domestic ski tourists",
+        "Not pre-arranging bodega visits in Mendoza — the private-label producers that give the best experiences don't accept walk-ins"
+      ],
+      "budget_range_usd_per_person": { "low": 2200, "high": 3600 }
+    },
+    {
+      "id": "argentina-patagonia-12d",
+      "min_days": 10,
+      "max_days": 15,
+      "interests": ["nature", "adventure", "wildlife"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "regions": [
+        {
+          "name": "Buenos Aires",
+          "nights": 2,
+          "stay_type": "design hotel in Palermo",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Welcome asado and city overview walk", "locked_specifics": 2 },
+            { "category": "MALBA modern art and San Telmo market", "locked_specifics": 1 }
+          ]
+        },
+        {
+          "name": "Peninsula Valdés",
+          "nights": 3,
+          "stay_type": "estancia lodge within the peninsula",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Southern right whale watching (seasonal June–December)", "locked_specifics": 3 },
+            { "category": "Magellanic penguin colony at Punta Tombo", "locked_specifics": 2 },
+            { "category": "Orca hunting behaviour observation (seasonal)", "locked_specifics": 3 }
+          ]
+        },
+        {
+          "name": "El Calafate & Perito Moreno Glacier",
+          "nights": 3,
+          "stay_type": "lakeside lodge with glacier views",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Glacier trekking with crampons on Perito Moreno", "locked_specifics": 3 },
+            { "category": "Boat safari along the glacier face", "locked_specifics": 2 },
+            { "category": "Estancia horseback ride in steppe landscape", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "El Chaltén (Fitz Roy massif)",
+          "nights": 3,
+          "stay_type": "mountain hostel-lodge at the edge of Los Glaciares",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Laguna de los Tres — Fitz Roy full-day hike", "locked_specifics": 3 },
+            { "category": "Cerro Torre viewpoint trail", "locked_specifics": 2 },
+            { "category": "Patagonian steppe birding walk", "locked_specifics": 2 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Underestimating Patagonian weather — Fitz Roy hikes require a 5-day weather window; plan at least 3 nights in El Chaltén to catch one good day",
+        "Visiting Peninsula Valdés outside whale season (June–December) expecting the signature wildlife experience",
+        "Trying to combine El Chaltén and El Calafate in less than 5 days — the road between them is 3 hours and you need time in each",
+        "Booking El Chaltén accommodation in high season (January–February) less than 4 months ahead — the town has limited beds"
+      ],
+      "budget_range_usd_per_person": { "low": 3200, "high": 5200 }
+    }
+  ]
+}

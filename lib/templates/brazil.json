@@ -1,0 +1,107 @@
+{
+  "country": "Brazil",
+  "default_archetype_id": "brazil-highlights-10d",
+  "archetypes": [
+    {
+      "id": "brazil-highlights-10d",
+      "min_days": 9,
+      "max_days": 13,
+      "interests": ["nature", "culture", "beaches", "wildlife"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "regions": [
+        {
+          "name": "Rio de Janeiro",
+          "nights": 3,
+          "stay_type": "boutique hotel in Santa Teresa or Ipanema",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Christ the Redeemer and Corcovado sunrise visit", "locked_specifics": 2 },
+            { "category": "Favela community tour with local guide", "locked_specifics": 3 },
+            { "category": "Sugarloaf gondola and Lapa neighborhood", "locked_specifics": 2 },
+            { "category": "Day beach rotation — Ipanema, Prainha, Grumari", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Pantanal (southern sector)",
+          "nights": 4,
+          "stay_type": "working farm lodge (fazenda) with wildlife-focused activities",
+          "stay_locked_count": 5,
+          "activities": [
+            { "category": "Jaguar-tracking boat safari on the Cuiabá River", "locked_specifics": 4 },
+            { "category": "Dawn birdwatching — world's highest bird diversity", "locked_specifics": 3 },
+            { "category": "Horseback ride through flooded plains", "locked_specifics": 2 },
+            { "category": "Caiman spotting night walk", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Salvador & Chapada Diamantina",
+          "nights": 3,
+          "stay_type": "colonial-house hotel in Salvador's Pelourinho",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Afro-Brazilian cultural circuit in Pelourinho", "locked_specifics": 3 },
+            { "category": "Capoeira class or live performance", "locked_specifics": 2 },
+            { "category": "Chapada Diamantina canyon and waterfall day trip", "locked_specifics": 3 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Visiting the Pantanal in the wet season (December–March) when road access closes and wildlife disperses — July to October is the dry window when jaguars concentrate near the river",
+        "Booking accommodation in Centro Rio instead of Santa Teresa or Ipanema — proximity and vibe matter enormously here",
+        "Treating Salvador as just an overnight — the Pelourinho at night and the Afro-Brazilian museum circuit need two full days",
+        "Flying to Cuiabá without checking road conditions to the northern Pantanal fazendas — the last 100km can be impassable in transitional seasons"
+      ],
+      "budget_range_usd_per_person": { "low": 2800, "high": 4600 }
+    },
+    {
+      "id": "brazil-amazon-9d",
+      "min_days": 8,
+      "max_days": 12,
+      "interests": ["nature", "wildlife", "adventure"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "regions": [
+        {
+          "name": "Manaus gateway & Rio Negro",
+          "nights": 1,
+          "stay_type": "city hotel near the historic opera house",
+          "stay_locked_count": 2,
+          "activities": [
+            { "category": "Amazonian Opera House tour and local market", "locked_specifics": 1 },
+            { "category": "Meeting of the Waters boat tour", "locked_specifics": 1 }
+          ]
+        },
+        {
+          "name": "Amazon jungle lodge (Rio Negro or Mamirauá)",
+          "nights": 5,
+          "stay_type": "floating lodge or elevated stilted camp deep in primary forest",
+          "stay_locked_count": 5,
+          "activities": [
+            { "category": "Canopy walkway and treetop ecology at dawn", "locked_specifics": 3 },
+            { "category": "River dolphin encounter and local fishing", "locked_specifics": 3 },
+            { "category": "Indigenous community knowledge exchange", "locked_specifics": 4 },
+            { "category": "Night canoe for caiman and night creatures", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Alter do Chão",
+          "nights": 2,
+          "stay_type": "charming pousada near the freshwater beaches",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Amazon freshwater beach at low-water season", "locked_specifics": 2 },
+            { "category": "Arapiuns River village visits by canoe", "locked_specifics": 3 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Flying into Manaus for only 2 nights and calling it 'the Amazon' — you need at least 4 nights in a real jungle lodge to experience primary forest",
+        "Visiting Alter do Chão in the wet season (March–June) when the freshwater beaches are completely submerged",
+        "Choosing a lodge based on price alone — the difference between a basic camp and a well-run ecology lodge is the difference between seeing 20 species and 200",
+        "Not factoring in the Manaus domestic connection when booking international flights — the Manaus connection frequently delays"
+      ],
+      "budget_range_usd_per_person": { "low": 2200, "high": 3800 }
+    }
+  ]
+}

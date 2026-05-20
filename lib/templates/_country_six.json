@@ -1,0 +1,114 @@
+{
+  "country": "Peru",
+  "default_archetype_id": "peru-classic-9d",
+  "archetypes": [
+    {
+      "id": "peru-classic-9d",
+      "min_days": 8,
+      "max_days": 11,
+      "interests": ["culture", "nature", "adventure"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "regions": [
+        {
+          "name": "Lima",
+          "nights": 2,
+          "stay_type": "boutique hotel in Miraflores or Barranco",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Barranco arts district and coastal walk", "locked_specifics": 2 },
+            { "category": "Lima food scene — tasting menu at a renowned Peruvian restaurant", "locked_specifics": 3 },
+            { "category": "Larco Museum pre-Columbian collection", "locked_specifics": 1 }
+          ]
+        },
+        {
+          "name": "Sacred Valley",
+          "nights": 3,
+          "stay_type": "hacienda or eco-lodge with mountain views",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Pisac market and Inca terrace complex", "locked_specifics": 2 },
+            { "category": "Salt flats at Maras and Moray circular terraces", "locked_specifics": 2 },
+            { "category": "Local weaving community visit with textile history", "locked_specifics": 3 }
+          ]
+        },
+        {
+          "name": "Machu Picchu",
+          "nights": 2,
+          "stay_type": "lodge in Aguas Calientes with early-entry access",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Dawn entry to Machu Picchu citadel", "locked_specifics": 3 },
+            { "category": "Huayna Picchu or Sun Gate hike (booked months ahead)", "locked_specifics": 3 },
+            { "category": "Hot springs at Aguas Calientes evening wind-down", "locked_specifics": 1 }
+          ]
+        },
+        {
+          "name": "Cusco",
+          "nights": 2,
+          "stay_type": "colonial-convent boutique in San Blas or the Plaza",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Sacsayhuamán fortress and local market circuit", "locked_specifics": 2 },
+            { "category": "Cooking class focused on Andean ingredients", "locked_specifics": 2 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Flying directly from sea level to Cusco (3,400m) without an acclimatization day — altitude sickness ruins more trips here than anything else; start with the Sacred Valley",
+        "Booking Huayna Picchu or Machu Picchu Mountain permits less than 3 months ahead — they sell out entirely",
+        "Visiting in the wet season (November–April) without understanding that trails close and the Inca Trail is shut entirely in February",
+        "Spending only one day at Machu Picchu — two days lets you see it in different light and explore without rushing"
+      ],
+      "budget_range_usd_per_person": { "low": 2200, "high": 3800 }
+    },
+    {
+      "id": "peru-amazon-10d",
+      "min_days": 9,
+      "max_days": 13,
+      "interests": ["nature", "wildlife", "culture"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "regions": [
+        {
+          "name": "Lima",
+          "nights": 1,
+          "stay_type": "airport-adjacent hotel for transit",
+          "stay_locked_count": 1,
+          "activities": [
+            { "category": "Lima food scene quick introduction", "locked_specifics": 1 }
+          ]
+        },
+        {
+          "name": "Puerto Maldonado Amazon (Madre de Dios)",
+          "nights": 4,
+          "stay_type": "eco-lodge in Tambopata National Reserve",
+          "stay_locked_count": 5,
+          "activities": [
+            { "category": "Macaw clay lick at dawn — one of the world's great wildlife spectacles", "locked_specifics": 3 },
+            { "category": "Jungle trail ecology walk with indigenous naturalist", "locked_specifics": 3 },
+            { "category": "Oxbow lake at night — caiman and nocturnal wildlife", "locked_specifics": 2 },
+            { "category": "Giant river otter territory at Sandoval Lake", "locked_specifics": 3 }
+          ]
+        },
+        {
+          "name": "Sacred Valley & Machu Picchu",
+          "nights": 4,
+          "stay_type": "hacienda in the valley, lodge in Aguas Calientes",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Sacred Valley market and ruin circuit", "locked_specifics": 2 },
+            { "category": "Machu Picchu dawn entry with private guide", "locked_specifics": 4 },
+            { "category": "Andean village homestay or community meal", "locked_specifics": 3 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Not bringing professional rain gear to the Amazon — even in dry season afternoon storms are common and the lodge will be 45 minutes by boat from the nearest shelter",
+        "Combining the Amazon with Cusco altitude in the same week without planning the acclimatization sequence carefully",
+        "Visiting Tambopata during the Brazilian nut harvest season when the lodges prioritize sustainability-forest work over tourism activities"
+      ],
+      "budget_range_usd_per_person": { "low": 2800, "high": 4500 }
+    }
+  ]
+}
