@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+const COUNTRIES = ["ARGENTINA", "BRAZIL", "PERU", "ECUADOR", "COLOMBIA", "PANAMA", "COSTA RICA"];
+
 export default function Hero() {
   return (
     <section className="relative min-h-[92vh] flex flex-col justify-end pb-20 px-6 sm:px-12 overflow-hidden bg-stone-900">
@@ -14,12 +16,17 @@ export default function Hero() {
 
       {/* Scrolling country marquee */}
       <div className="absolute top-0 left-0 right-0 overflow-hidden opacity-10 pointer-events-none select-none py-4">
-        <div className="flex whitespace-nowrap animate-marquee">
-          {[...Array(3)].flatMap(() =>
-            ["ARGENTINA", "BRAZIL", "PERU", "ECUADOR", "COLOMBIA", "PANAMA", "COSTA RICA"].map((c) => (
+        <div
+          className="flex whitespace-nowrap"
+          style={{ animation: "marquee 35s linear infinite" }}
+        >
+          {/* Two identical sets — animation translates by 50% for seamless loop */}
+          {[0, 1].map((copy) =>
+            COUNTRIES.map((c) => (
               <span
-                key={Math.random()}
-                className="font-serif text-[9vw] text-white leading-none mr-16"
+                key={`${copy}-${c}`}
+                className="font-serif text-white leading-none"
+                style={{ fontSize: "9vw", marginRight: "4vw", flexShrink: 0 }}
               >
                 {c}
               </span>
