@@ -17,7 +17,7 @@ export default function FinalCTA({ country }: Props) {
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <a
-            href="https://calendly.com/ile-travel"
+            href="https://calendly.com/yaguaretetravels"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center h-12 px-8 rounded-sm bg-stone-800 text-white text-sm font-medium hover:bg-stone-700 transition-colors"

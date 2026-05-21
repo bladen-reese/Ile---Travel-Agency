@@ -52,7 +52,7 @@ export default function TripBuilderPage() {
       <nav className="px-6 py-5 border-b border-stone-100 bg-white">
         <div className="max-w-3xl mx-auto">
           <span className="font-serif text-xl text-stone-900 tracking-tight">
-            Ile
+            Yaguarete Travels
           </span>
         </div>
       </nav>
