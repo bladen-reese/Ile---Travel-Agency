@@ -12,16 +12,20 @@ export default function Hero() {
         }}
       />
 
-      {/* Country strip */}
-      <div className="absolute top-0 left-0 right-0 flex overflow-hidden opacity-10 pointer-events-none select-none">
-        {["PANAMA", "COLOMBIA", "ECUADOR", "BRAZIL", "ARGENTINA", "PERU"].map((c) => (
-          <span
-            key={c}
-            className="font-serif text-[11vw] text-white whitespace-nowrap mr-20 leading-none"
-          >
-            {c}
-          </span>
-        ))}
+      {/* Scrolling country marquee */}
+      <div className="absolute top-0 left-0 right-0 overflow-hidden opacity-10 pointer-events-none select-none py-4">
+        <div className="flex whitespace-nowrap animate-marquee">
+          {[...Array(3)].flatMap(() =>
+            ["ARGENTINA", "BRAZIL", "PERU", "ECUADOR", "COLOMBIA", "PANAMA", "COSTA RICA"].map((c) => (
+              <span
+                key={Math.random()}
+                className="font-serif text-[9vw] text-white leading-none mr-16"
+              >
+                {c}
+              </span>
+            ))
+          )}
+        </div>
       </div>
 
       <div className="relative max-w-4xl">
