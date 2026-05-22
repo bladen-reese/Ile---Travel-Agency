@@ -152,7 +152,7 @@ export const t = {
       eyebrow: "América Latina · Viajes a medida",
       heading1: "Construyendo experiencias",
       heading2: "desde lugares que hemos estado.",
-      body: "Diseñamos viajes por América del Sur y Central usando alojamientos donde hemos dormido, guías en quienes confiamos y la época del año que marca la diferencia.",
+      body: "En Yaguareté Travels diseñamos viajes personalizados pensados para cada persona, pareja o grupo. Organizamos experiencias turísticas con enfoques de descanso, aventura, naturaleza, bienestar, fiestas, escapadas románticas, holísticos, y viajes para conocer nuevos lugares y personas, siempre adaptándonos a tu presupuesto y estilo de viaje. Nos destacamos por buscar espacios seguros con comodidad, buen trato, atención personalizada y servicios comprometidos para que solo tengas que disfrutar el viaje.",
       cta: "Diseña tu viaje →",
       howItWorks: "Cómo funciona",
     },
