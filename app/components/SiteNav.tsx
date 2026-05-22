@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 
 export default function SiteNav() {
@@ -16,19 +17,32 @@ export default function SiteNav() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white/95 backdrop-blur-sm border-b border-stone-100 py-4"
-          : "bg-transparent py-6"
+          ? "bg-white/95 backdrop-blur-sm border-b border-stone-100 py-3"
+          : "bg-transparent py-5"
       }`}
     >
       <div className="max-w-5xl mx-auto px-6 sm:px-12 flex items-center justify-between">
-        <Link
-          href="/"
-          className={`font-serif text-xl tracking-tight transition-colors ${
-            scrolled ? "text-stone-900" : "text-white"
-          }`}
-        >
-          Yaguarete Travels
+        {/* Logo + brand name */}
+        <Link href="/" className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-full overflow-hidden shrink-0 border border-white/20">
+            <Image
+              src="/logo.png"
+              alt="Yaguarete Travels jaguar logo"
+              width={40}
+              height={40}
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <span
+            className={`font-serif text-sm font-medium tracking-[0.12em] uppercase transition-colors ${
+              scrolled ? "text-stone-900" : "text-white"
+            }`}
+          >
+            Yaguaré<span className="tracking-[0.12em]">te</span> Travels
+          </span>
         </Link>
+
+        {/* Nav links */}
         <div className="flex items-center gap-6">
           <a
             href="#proof"

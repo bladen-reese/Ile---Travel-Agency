@@ -4,8 +4,8 @@ export default function SiteFooter() {
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-col sm:flex-row justify-between gap-10 mb-12">
           <div>
-            <p className="font-serif text-xl text-white mb-2">
-              Yaguarete Travels
+            <p className="font-serif text-xl text-white mb-2 tracking-wide uppercase">
+              Yaguaréte Travels
             </p>
             <p className="text-stone-500 text-sm max-w-xs leading-relaxed">
               Latin America travel design. We&apos;ve been there. We can help

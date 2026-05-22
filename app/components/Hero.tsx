@@ -40,12 +40,13 @@ export default function Hero() {
           Latin America · Concierge Travel
         </p>
         <h1 className="font-serif text-5xl sm:text-7xl text-white leading-[1.05] mb-8">
-          Yaguarete<br />Travels
+          Built on places
+          <br />
+          <span className="italic text-stone-300">we&apos;ve actually been.</span>
         </h1>
         <p className="text-stone-300 text-xl sm:text-2xl font-light leading-relaxed max-w-xl mb-12">
-          We design trips across South and Central America using places
-          we&apos;ve actually stayed, guides we trust, and timing that makes
-          the difference.
+          We design trips across South and Central America using accommodation
+          we&apos;ve stayed in, guides we trust, and timing that makes the difference.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
