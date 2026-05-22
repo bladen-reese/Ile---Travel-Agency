@@ -11,7 +11,7 @@ export const t = {
       eyebrow: "Latin America · Concierge Travel",
       heading1: "Built on places",
       heading2: "we've actually been.",
-      body: "We design trips across South and Central America using accommodation we've stayed in, guides we trust, and timing that makes the difference.",
+      body: "At Yaguareté Travels we design personalized trips tailored to each person, couple, or group. We build travel experiences around rest, adventure, nature, wellness, nightlife, romantic getaways, holistic retreats, and journeys to discover new places and people — always adapting to your budget and travel style. We stand out by finding safe, comfortable spaces with genuine hospitality, personalized attention, and committed service so all you have to do is enjoy the trip.",
       cta: "Build your trip →",
       howItWorks: "How it works",
     },

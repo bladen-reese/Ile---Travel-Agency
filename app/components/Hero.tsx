@@ -9,7 +9,7 @@ export default function Hero() {
   const { tr } = useLang();
 
   return (
-    <section data-hero className="relative min-h-screen flex flex-col justify-end pb-40 px-6 sm:px-12 overflow-hidden bg-stone-900">
+    <section data-hero className="relative min-h-[130vh] flex flex-col justify-end pb-40 px-6 sm:px-12 overflow-hidden bg-stone-900">
       {/* Background texture */}
       <div
         className="absolute inset-0 opacity-30"
@@ -36,7 +36,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="relative max-w-4xl">
+      <div className="relative max-w-5xl">
         <p className="text-amber-400 text-xs font-medium uppercase tracking-[0.2em] mb-6">
           {tr.hero.eyebrow}
         </p>
@@ -45,7 +45,7 @@ export default function Hero() {
           <br />
           <span className="italic text-stone-300">{tr.hero.heading2}</span>
         </h1>
-        <p className="text-stone-300 text-base sm:text-lg font-light leading-relaxed max-w-xl mb-12">
+        <p className="text-stone-300 text-base sm:text-lg font-light leading-relaxed max-w-3xl mb-12">
           {tr.hero.body}
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
