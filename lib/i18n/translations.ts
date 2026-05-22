@@ -142,8 +142,8 @@ export const t = {
     },
     hero: {
       eyebrow: "América Latina · Viajes a medida",
-      heading1: "Construido en lugares",
-      heading2: "donde hemos estado.",
+      heading1: "Construyendo experiencias",
+      heading2: "desde lugares que hemos estado.",
       body: "Diseñamos viajes por América del Sur y Central usando alojamientos donde hemos dormido, guías en quienes confiamos y la época del año que marca la diferencia.",
       cta: "Diseña tu viaje →",
       howItWorks: "Cómo funciona",
