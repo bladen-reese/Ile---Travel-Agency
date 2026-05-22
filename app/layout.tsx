@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { LanguageProvider } from "@/lib/i18n/LanguageContext";
 
 export const metadata: Metadata = {
-  title: "Yaguarete Travels — Latin America Concierge",
+  title: "Yaguaréte Travels — Latin America Concierge",
   description:
     "We design trips across South and Central America using places we've actually stayed. Panama, Colombia, Ecuador, Brazil, Argentina, Peru.",
 };
@@ -14,7 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        <LanguageProvider>{children}</LanguageProvider>
+      </body>
     </html>
   );
 }
