@@ -9,7 +9,7 @@ export default function Hero() {
   const { tr } = useLang();
 
   return (
-    <section className="relative min-h-[92vh] flex flex-col justify-end pb-20 px-6 sm:px-12 overflow-hidden bg-stone-900">
+    <section data-hero className="relative min-h-[92vh] flex flex-col justify-end pb-20 px-6 sm:px-12 overflow-hidden bg-stone-900">
       {/* Background texture */}
       <div
         className="absolute inset-0 opacity-30"

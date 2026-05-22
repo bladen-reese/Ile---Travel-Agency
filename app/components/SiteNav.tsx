@@ -6,25 +6,31 @@ import { useState, useEffect } from "react";
 import { useLang } from "@/lib/i18n/LanguageContext";
 
 export default function SiteNav() {
-  const [scrolled, setScrolled] = useState(false);
+  const [pastHero, setPastHero] = useState(false);
   const { tr, lang, toggleLang } = useLang();
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40);
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
+    const hero = document.querySelector("[data-hero]");
+    if (!hero) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => setPastHero(!entry.isIntersecting),
+      // Fire exactly when the hero's bottom edge crosses the top of the viewport
+      { threshold: 0, rootMargin: "0px 0px 0px 0px" }
+    );
+
+    observer.observe(hero);
+    return () => observer.disconnect();
   }, []);
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-white/95 backdrop-blur-sm border-b border-stone-100 py-2"
-          : "bg-transparent py-4"
+      className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${
+        pastHero ? "bg-black py-2" : "bg-transparent py-4"
       }`}
     >
       <div className="w-full px-6 sm:px-10 flex items-center justify-between">
-        {/* Logo + brand — hard left, 3× size */}
+        {/* Logo + brand — hard left */}
         <Link href="/" className="flex items-center gap-4">
           <div className="w-28 h-28 rounded-full overflow-hidden shrink-0 shadow-md">
             <Image
@@ -35,55 +41,28 @@ export default function SiteNav() {
               className="w-full h-full object-cover"
             />
           </div>
-          <span
-            className={`font-serif font-medium tracking-[0.18em] uppercase transition-colors text-2xl ${
-              scrolled ? "text-stone-900" : "text-white"
-            }`}
-          >
+          <span className="font-serif font-medium tracking-[0.18em] uppercase transition-colors text-2xl text-white">
             Yaguaréte Travels
           </span>
         </Link>
 
         {/* Nav links + lang toggle — hard right */}
         <div className="flex items-center gap-6">
-          <a
-            href="#proof"
-            className={`text-sm hidden sm:block transition-colors ${
-              scrolled
-                ? "text-stone-500 hover:text-stone-800"
-                : "text-stone-300 hover:text-white"
-            }`}
-          >
+          <a href="#proof" className="text-sm hidden sm:block text-stone-300 hover:text-white transition-colors">
             {tr.nav.ourStays}
           </a>
-          <a
-            href="#trip-styles"
-            className={`text-sm hidden sm:block transition-colors ${
-              scrolled
-                ? "text-stone-500 hover:text-stone-800"
-                : "text-stone-300 hover:text-white"
-            }`}
-          >
+          <a href="#trip-styles" className="text-sm hidden sm:block text-stone-300 hover:text-white transition-colors">
             {tr.nav.tripStyles}
           </a>
           <Link
             href="/trip-builder"
-            className={`text-sm font-medium px-5 py-2 rounded-sm transition-colors ${
-              scrolled
-                ? "bg-stone-900 text-white hover:bg-stone-700"
-                : "bg-white/10 text-white border border-white/30 hover:bg-white/20"
-            }`}
+            className="text-sm font-medium px-5 py-2 rounded-sm border border-white/30 text-white bg-white/10 hover:bg-white/20 transition-colors"
           >
             {tr.nav.planATrip}
           </Link>
-          {/* Language toggle */}
           <button
             onClick={toggleLang}
-            className={`text-sm font-medium px-3 py-2 rounded-sm border transition-colors ${
-              scrolled
-                ? "border-stone-300 text-stone-600 hover:bg-stone-100"
-                : "border-white/30 text-white hover:bg-white/10"
-            }`}
+            className="text-sm font-medium px-3 py-2 rounded-sm border border-white/30 text-white hover:bg-white/10 transition-colors"
             aria-label="Toggle language"
           >
             {lang === "en" ? "ES" : "EN"}
