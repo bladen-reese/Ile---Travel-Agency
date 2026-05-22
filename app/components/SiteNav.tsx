@@ -2,20 +2,25 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useLang } from "@/lib/i18n/LanguageContext";
 
 export default function SiteNav() {
   const [pastHero, setPastHero] = useState(false);
   const { tr, lang, toggleLang } = useLang();
+  const navRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     const hero = document.querySelector("[data-hero]");
     if (!hero) return;
 
+    // Use the nav's actual rendered height so the trigger fires the instant
+    // the nav's bottom edge touches the first white pixel below the hero.
+    const navHeight = navRef.current?.offsetHeight ?? 128;
+
     const observer = new IntersectionObserver(
       ([entry]) => setPastHero(!entry.isIntersecting),
-      { threshold: 0, rootMargin: "0px 0px 0px 0px" }
+      { threshold: 0, rootMargin: `-${navHeight}px 0px 0px 0px` }
     );
 
     observer.observe(hero);
@@ -24,6 +29,7 @@ export default function SiteNav() {
 
   return (
     <nav
+      ref={navRef}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         pastHero ? "bg-black py-2" : "bg-white py-2 shadow-sm"
       }`}

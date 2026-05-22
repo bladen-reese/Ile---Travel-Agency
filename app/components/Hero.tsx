@@ -9,7 +9,7 @@ export default function Hero() {
   const { tr } = useLang();
 
   return (
-    <section data-hero className="relative min-h-[92vh] flex flex-col justify-end pb-20 px-6 sm:px-12 overflow-hidden bg-stone-900">
+    <section data-hero className="relative min-h-screen flex flex-col justify-end pb-40 px-6 sm:px-12 overflow-hidden bg-stone-900">
       {/* Background texture */}
       <div
         className="absolute inset-0 opacity-30"
@@ -17,12 +17,6 @@ export default function Hero() {
           backgroundImage: `radial-gradient(circle at 20% 50%, #78350f 0%, transparent 50%),
                             radial-gradient(circle at 80% 20%, #1c1917 0%, transparent 50%)`,
         }}
-      />
-
-      {/* Nav shade */}
-      <div
-        className="absolute top-0 left-0 right-0 h-48 pointer-events-none z-10"
-        style={{ background: "linear-gradient(to bottom, rgba(10,8,6,0.80) 0%, transparent 100%)" }}
       />
 
       {/* Scrolling country marquee */}
@@ -51,7 +45,7 @@ export default function Hero() {
           <br />
           <span className="italic text-stone-300">{tr.hero.heading2}</span>
         </h1>
-        <p className="text-stone-300 text-xl sm:text-2xl font-light leading-relaxed max-w-xl mb-12">
+        <p className="text-stone-300 text-base sm:text-lg font-light leading-relaxed max-w-xl mb-12">
           {tr.hero.body}
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
