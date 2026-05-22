@@ -109,10 +109,10 @@ export const t = {
     },
     proof: {
       eyebrow: "We've been there",
-      heading: "Recommendations from places we've stayed",
-      body: "Every property and region in our network is one we've visited ourselves. These are a few notes from our own trips.",
-      disclaimer: "These are representative — we have notes on many more properties across all six countries.",
-      noCommission: "All recommendations are from personal stays, not commissions or complimentary visits.",
+      heading: "Places we've actually stayed",
+      body: "Every property we recommend is one we've visited ourselves. No commissions, no complimentary nights.",
+      disclaimer: "",
+      noCommission: "All recommendations from personal experience, not commissions.",
     },
     countries: {
       eyebrow: "Where we work",
@@ -250,10 +250,10 @@ export const t = {
     },
     proof: {
       eyebrow: "Hemos estado allí",
-      heading: "Recomendaciones de lugares donde nos hemos alojado",
-      body: "Cada propiedad y región de nuestra red la hemos visitado personalmente. Estas son algunas notas de nuestros propios viajes.",
-      disclaimer: "Estos son representativos — tenemos notas de muchas más propiedades en los seis países.",
-      noCommission: "Todas las recomendaciones son de estancias personales, no de comisiones ni visitas gratuitas.",
+      heading: "Lugares donde realmente nos alojamos",
+      body: "Cada lugar que recomendamos lo hemos visitado nosotros mismos. Sin comisiones ni visitas de cortesía.",
+      disclaimer: "",
+      noCommission: "Todas las recomendaciones son de experiencia propia, no de comisiones.",
     },
     countries: {
       eyebrow: "Donde trabajamos",

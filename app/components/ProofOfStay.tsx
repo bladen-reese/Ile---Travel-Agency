@@ -4,83 +4,94 @@ import Image from "next/image";
 import { stays } from "@/lib/content/stays";
 import { useLang } from "@/lib/i18n/LanguageContext";
 
-function PhotoPlaceholder({ alt, country }: { alt: string; country: string }) {
-  const colors: Record<string, string> = {
-    Panama: "bg-emerald-900",
-    Colombia: "bg-yellow-900",
-    Ecuador: "bg-teal-900",
-    Argentina: "bg-violet-900",
-    Brazil: "bg-orange-900",
-  };
-  const bg = colors[country] ?? "bg-stone-800";
-  return (
-    <div className={`w-full h-full ${bg} flex items-end p-4`}>
-      <p className="text-white/40 text-xs leading-tight">{alt}</p>
-    </div>
-  );
-}
+const FLAG: Record<string, string> = {
+  Panama: "🇵🇦",
+  Colombia: "🇨🇴",
+  Ecuador: "🇪🇨",
+  Argentina: "🇦🇷",
+  Brazil: "🇧🇷",
+  Peru: "🇵🇪",
+};
+
+const BG: Record<string, string> = {
+  Panama: "bg-emerald-900",
+  Colombia: "bg-yellow-900",
+  Ecuador: "bg-teal-900",
+  Argentina: "bg-violet-900",
+  Brazil: "bg-orange-900",
+};
 
 export default function ProofOfStay() {
   const { tr } = useLang();
+  const featured = stays.slice(0, 5);
+  const top = featured.slice(0, 3);
+  const bottom = featured.slice(3, 5);
+
+  function PhotoCard({
+    stay,
+    aspect,
+  }: {
+    stay: (typeof stays)[0];
+    aspect: string;
+  }) {
+    const bg = BG[stay.country] ?? "bg-stone-800";
+    return (
+      <div>
+        <div className={`relative ${aspect} overflow-hidden rounded-sm bg-stone-200`}>
+          {stay.photo !== "/photos/placeholder.jpg" ? (
+            <Image
+              src={stay.photo}
+              alt={stay.photoAlt}
+              fill
+              className="object-cover"
+              sizes="(max-width: 640px) 100vw, 40vw"
+            />
+          ) : (
+            <div className={`absolute inset-0 ${bg}`} />
+          )}
+          <div className="absolute inset-0 bg-stone-900/10" />
+          <span className="absolute top-3 left-3 text-lg leading-none">
+            {FLAG[stay.country]}
+          </span>
+        </div>
+        <div className="mt-2.5">
+          <p className="text-xs font-medium text-stone-500 uppercase tracking-[0.15em]">
+            {stay.country} · {stay.region}
+          </p>
+          <p className="text-stone-600 text-sm italic mt-0.5">&ldquo;{stay.standout}&rdquo;</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
-    <section id="proof" className="py-24 px-6 sm:px-12 bg-white">
-      <div className="max-w-4xl mx-auto">
-        <p className="text-xs font-medium uppercase tracking-[0.2em] text-stone-400 mb-4">
+    <section id="proof" className="py-20 px-6 sm:px-12 bg-white">
+      <div className="max-w-5xl mx-auto">
+        <p className="text-xs font-medium uppercase tracking-[0.2em] text-stone-400 mb-3">
           {tr.proof.eyebrow}
         </p>
-        <h2 className="font-serif text-4xl sm:text-5xl text-stone-900 mb-6 leading-tight">
+        <h2 className="font-serif text-4xl sm:text-5xl text-stone-900 mb-4 leading-tight">
           {tr.proof.heading}
         </h2>
-        <p className="text-stone-500 text-lg leading-relaxed mb-16 max-w-2xl">
+        <p className="text-stone-500 text-base leading-relaxed mb-12 max-w-xl">
           {tr.proof.body}
         </p>
 
-        <div className="space-y-16">
-          {stays.map((stay, i) => (
-            <div
-              key={i}
-              className={`grid sm:grid-cols-2 gap-10 items-start ${
-                i % 2 === 1 ? "sm:[&>*:first-child]:order-2" : ""
-              }`}
-            >
-              <div className="aspect-[4/3] overflow-hidden rounded-sm bg-stone-100 relative">
-                {stay.photo !== "/photos/placeholder.jpg" ? (
-                  <Image
-                    src={stay.photo}
-                    alt={stay.photoAlt}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 640px) 100vw, 50vw"
-                  />
-                ) : (
-                  <PhotoPlaceholder alt={stay.photoAlt} country={stay.country} />
-                )}
-                <div className="absolute top-3 left-3">
-                  <span className="bg-white/90 text-stone-700 text-xs font-medium px-3 py-1 rounded-full">
-                    {stay.country}
-                  </span>
-                </div>
-              </div>
-
-              <div className="flex flex-col justify-center">
-                <p className="text-xs font-medium uppercase tracking-[0.2em] text-stone-400 mb-2">
-                  {stay.region} · {stay.month}
-                </p>
-                <h3 className="font-serif text-2xl text-stone-900 mb-1">{stay.stayType}</h3>
-                <p className="text-stone-600 leading-relaxed mt-4 mb-6">{stay.note}</p>
-                <div className="border-l-2 border-amber-400 pl-4">
-                  <p className="text-stone-700 italic text-sm">&ldquo;{stay.standout}&rdquo;</p>
-                </div>
-              </div>
-            </div>
+        {/* Top row — 3 portrait photos */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
+          {top.map((stay, i) => (
+            <PhotoCard key={i} stay={stay} aspect="aspect-[3/4]" />
           ))}
         </div>
 
-        <div className="mt-20 pt-12 border-t border-stone-100 text-center">
-          <p className="text-stone-500 mb-2">{tr.proof.disclaimer}</p>
-          <p className="text-stone-400 text-sm">{tr.proof.noCommission}</p>
+        {/* Bottom row — 2 landscape photos */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {bottom.map((stay, i) => (
+            <PhotoCard key={i} stay={stay} aspect="aspect-[16/9]" />
+          ))}
         </div>
+
+        <p className="text-stone-400 text-xs mt-8">{tr.proof.noCommission}</p>
       </div>
     </section>
   );
