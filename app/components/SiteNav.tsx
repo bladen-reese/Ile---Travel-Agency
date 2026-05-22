@@ -21,29 +21,29 @@ export default function SiteNav() {
           : "bg-transparent py-5"
       }`}
     >
-      <div className="max-w-5xl mx-auto px-6 sm:px-12 flex items-center justify-between">
-        {/* Logo + brand name */}
+      <div className="w-full px-6 sm:px-10 flex items-center justify-between">
+        {/* Logo + brand — hard left */}
         <Link href="/" className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-full overflow-hidden shrink-0 border border-white/20">
+          <div className="w-9 h-9 rounded-full overflow-hidden shrink-0">
             <Image
               src="/logo.png"
-              alt="Yaguarete Travels jaguar logo"
-              width={40}
-              height={40}
+              alt="Yaguarete Travels"
+              width={36}
+              height={36}
               className="w-full h-full object-cover"
             />
           </div>
           <span
-            className={`font-serif text-sm font-medium tracking-[0.12em] uppercase transition-colors ${
+            className={`font-serif text-xs font-medium tracking-[0.18em] uppercase transition-colors ${
               scrolled ? "text-stone-900" : "text-white"
             }`}
           >
-            Yaguaré<span className="tracking-[0.12em]">te</span> Travels
+            Yaguaréte Travels
           </span>
         </Link>
 
-        {/* Nav links */}
-        <div className="flex items-center gap-6">
+        {/* Nav links — hard right */}
+        <div className="flex items-center gap-8">
           <a
             href="#proof"
             className={`text-sm hidden sm:block transition-colors ${

@@ -14,13 +14,20 @@ export default function Hero() {
         }}
       />
 
-      {/* Scrolling country marquee */}
-      <div className="absolute top-0 left-0 right-0 overflow-hidden opacity-10 pointer-events-none select-none py-4">
+      {/* Nav shade — gradient that only covers the nav area */}
+      <div
+        className="absolute top-0 left-0 right-0 h-40 pointer-events-none z-10"
+        style={{
+          background: "linear-gradient(to bottom, rgba(10,8,6,0.75) 0%, transparent 100%)",
+        }}
+      />
+
+      {/* Scrolling country marquee — sits below the nav shade */}
+      <div className="absolute top-24 left-0 right-0 overflow-hidden opacity-[0.13] pointer-events-none select-none">
         <div
           className="flex whitespace-nowrap"
           style={{ animation: "marquee 35s linear infinite" }}
         >
-          {/* Two identical sets — animation translates by 50% for seamless loop */}
           {[0, 1].map((copy) =>
             COUNTRIES.map((c) => (
               <span
