@@ -90,14 +90,6 @@ export const t = {
           bestFor: "Families, couples; often a reward leg at the end of a longer trip",
         },
         {
-          label: "Slow travel",
-          headline: "Fewer places, more time, actual rest",
-          description: "Most people try to cover too much. A slow trip might mean two weeks in the Colombian coffee region plus one city, or a hacienda in Ecuador's highlands for most of a trip. You leave knowing the place instead of having seen it.",
-          typicalShape: "2–3 locations maximum; longer stays; built-in unscheduled time",
-          budgetNote: "Often ends up costing less because you're not moving constantly.",
-          bestFor: "Anyone who's been to Latin America before; remote workers; people recovering from burnout",
-        },
-        {
           label: "Holistic & wellness",
           headline: "Plant medicine, retreat stays, and intentional travel",
           description: "The Andes and Amazon have deep traditions of plant medicine, ceremony, and healing. These trips are built around retreat centres, thermal springs, breathwork facilitators, and lodge-based yoga programmes — not spa hotels. The setting does a lot of the work.",
@@ -237,14 +229,6 @@ export const t = {
           typicalShape: "Generalmente 3–4 noches en la costa después de una sección urbana o de montaña",
           budgetNote: "Los alojamientos sobre el agua y los traslados en bote elevan los costos; sabemos cuáles valen la pena.",
           bestFor: "Familias, parejas; a menudo el tramo final de un viaje más largo",
-        },
-        {
-          label: "Viaje lento",
-          headline: "Menos lugares, más tiempo, descanso real",
-          description: "La mayoría intenta abarcar demasiado. Un viaje lento puede significar dos semanas en la región cafetera colombiana más una ciudad, o una hacienda en los Andes ecuatorianos la mayor parte del tiempo.",
-          typicalShape: "Máximo 2–3 destinos; estadías largas; tiempo libre incorporado",
-          budgetNote: "Suele costar menos porque no estás en constante movimiento.",
-          bestFor: "Quienes ya han viajado por América Latina; nómadas digitales; personas que necesitan desconectarse",
         },
         {
           label: "Holístico y bienestar",

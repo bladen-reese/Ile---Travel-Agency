@@ -6,7 +6,6 @@ export const tripStyleMeta = [
   { id: "adventure", photo: "/photos/styles/adventure.jpg", emoji: "⛰️" },
   { id: "food",      photo: "/photos/styles/food.jpg",      emoji: "☕" },
   { id: "beaches",   photo: "/photos/styles/beaches.jpg",   emoji: "🏝️" },
-  { id: "slow",      photo: "/photos/styles/slow.jpg",      emoji: "🌿" },
   { id: "wellness",  photo: "/photos/styles/wellness.jpg",  emoji: "🧘" },
   { id: "rest",      photo: "/photos/styles/rest.jpg",      emoji: "🌅" },
 ];
