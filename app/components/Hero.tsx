@@ -9,7 +9,7 @@ export default function Hero() {
   const { tr } = useLang();
 
   return (
-    <section data-hero className="relative min-h-[130vh] flex flex-col justify-end pb-40 px-6 sm:px-12 overflow-hidden bg-stone-900">
+    <section data-hero className="relative min-h-screen overflow-hidden bg-stone-900 px-6 sm:px-12 pb-24">
       {/* Background texture */}
       <div
         className="absolute inset-0 opacity-30"
@@ -35,6 +35,13 @@ export default function Hero() {
           )}
         </div>
       </div>
+
+      {/*
+        Spacer that clears the marquee area regardless of viewport size.
+        Marquee sits at top-36 (9rem) and is 9vw tall → bottom at calc(9rem + 9vw).
+        We add 4rem of breathing room above the content.
+      */}
+      <div style={{ height: "calc(9vw + 13rem)" }} />
 
       <div className="relative max-w-5xl">
         <p className="text-amber-400 text-xs font-medium uppercase tracking-[0.2em] mb-6">
