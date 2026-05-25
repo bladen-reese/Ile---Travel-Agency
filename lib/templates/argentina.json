@@ -112,6 +112,57 @@
         "Booking El Chaltén accommodation in high season (January–February) less than 4 months ahead — the town has limited beds"
       ],
       "budget_range_usd_per_person": { "low": 3200, "high": 5200 }
+    },
+    {
+      "id": "argentina-northwest-iguazu-11d",
+      "min_days": 9,
+      "max_days": 14,
+      "interests": ["culture", "photography", "nature", "adventure", "gastronomy", "honeymoon"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "is_priority": true,
+      "regions": [
+        {
+          "name": "Salta",
+          "nights": 3,
+          "stay_type": "colonial boutique hotel in the historic centre",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Quebrada de Cafayate wine and rock-formation drive — torrontés tasting en route", "locked_specifics": 3 },
+            { "category": "Cachi and the Calchaquí Valleys high-altitude circuit", "locked_specifics": 2 },
+            { "category": "Peña folklore show and local gastronomy — locro, empanadas, humitas", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Jujuy (Quebrada de Humahuaca)",
+          "nights": 3,
+          "stay_type": "boutique adobe posada in Tilcara or Purmamarca",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Cerro de los Siete Colores at Purmamarca — UNESCO coloured mountain at dawn", "locked_specifics": 2 },
+            { "category": "Tilcara Pucará fortress and pre-Inca archaeological site", "locked_specifics": 2 },
+            { "category": "Salinas Grandes salt flats on the Altiplano — photography at 3,400 m", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Misiones — Iguazú Falls",
+          "nights": 2,
+          "stay_type": "lodge inside or adjacent to the national park",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Argentine side full walkway — Devil's Throat at opening hour before the crowd", "locked_specifics": 2 },
+            { "category": "Brazilian side panoramic walkway for the wide view (day trip or cross-border stay)", "locked_specifics": 2 },
+            { "category": "Jungle boat safari under the falls — expect to be completely soaked", "locked_specifics": 2 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Combining Salta and Jujuy as a single overnight each — this is a road-trip region that rewards three nights in each to access the remote valleys",
+        "Arriving in Purmamarca after 10 am when tour buses have already packed the plaza — stay locally to see the mountain in morning silence",
+        "Visiting Iguazú only from the Argentine side — the Brazilian side gives the wide panoramic view; if you can cross for even half a day, do it",
+        "Scheduling this route in reverse (flying Iguazú first) — the northwest colonial cities are a better opening before the waterfall finale"
+      ],
+      "budget_range_usd_per_person": { "low": 2200, "high": 3800 }
     }
   ]
 }

@@ -111,6 +111,118 @@
         "Scheduling the Amazon leg in February or March when the river is at its lowest and wildlife disperses"
       ],
       "budget_range_usd_per_person": { "low": 2600, "high": 4200 }
+    },
+    {
+      "id": "colombia-caribbean-coast-8d",
+      "min_days": 7,
+      "max_days": 10,
+      "interests": ["nature", "adventure", "holistic", "birdwatching", "coffee", "cacao", "photography", "rest"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "is_priority": true,
+      "regions": [
+        {
+          "name": "Santa Marta",
+          "nights": 1,
+          "stay_type": "boutique hotel in the historic centre",
+          "stay_locked_count": 2,
+          "activities": [
+            { "category": "Arrival orientation walk through the colonial centre", "locked_specifics": 1 },
+            { "category": "Evening seafood dinner on the waterfront", "locked_specifics": 1 }
+          ]
+        },
+        {
+          "name": "Minca",
+          "nights": 2,
+          "stay_type": "hillside eco-lodge with cloud-forest views",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Dawn birdwatching in the Sierra Nevada cloud forest", "locked_specifics": 3 },
+            { "category": "Coffee and cacao farm tour — seed to cup and bean to bar", "locked_specifics": 2 },
+            { "category": "Waterfall hike to Pozo Azul or La Victoria", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Parque Tayrona",
+          "nights": 2,
+          "stay_type": "eco-camp within the park — tents or hammocks at the jungle edge",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Jungle trail hike to Cabo San Juan and Arrecifes beach", "locked_specifics": 2 },
+            { "category": "Sunrise swim at a protected Caribbean cove", "locked_specifics": 2 },
+            { "category": "Biodiversity spotting walk with a park naturalist", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Palomino",
+          "nights": 3,
+          "stay_type": "beachfront eco-hostel or bohemian riverside lodge",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Río Palomino tubing — guided float from jungle to sea", "locked_specifics": 2 },
+            { "category": "Visit to a Kogui indigenous community in the Sierra Nevada foothills", "locked_specifics": 3 },
+            { "category": "Yoga or breathwork session at a beachfront shala", "locked_specifics": 2 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Visiting Tayrona without advance eco-camp bookings — the park-approved sites fill up months ahead and can't be found on standard booking platforms",
+        "Skipping Santa Marta as 'just a hub' — the historic centre has one excellent evening before heading into the sierra",
+        "Planning Tayrona in February or August when the park closes for its periodic ecological rest — check the closure calendar before booking",
+        "Underestimating the Minca-to-Palomino road — it's scenic but unpaved in sections; book a trusted driver, not a generic taxi"
+      ],
+      "budget_range_usd_per_person": { "low": 1700, "high": 2800 }
+    },
+    {
+      "id": "colombia-coffee-highlands-9d",
+      "min_days": 8,
+      "max_days": 12,
+      "interests": ["coffee", "culture", "party", "photography", "honeymoon", "nature", "adventure"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "is_priority": true,
+      "regions": [
+        {
+          "name": "Medellín & Guatapé",
+          "nights": 3,
+          "stay_type": "design hotel in El Poblado or Laureles",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "City transformation story and urban design walk", "locked_specifics": 2 },
+            { "category": "Day trip to Guatapé — Piedra del Peñol rock climb and lake circuit", "locked_specifics": 2 },
+            { "category": "Medellín nightlife and gastronomy circuit in El Poblado", "locked_specifics": 3 }
+          ]
+        },
+        {
+          "name": "Jardín",
+          "nights": 2,
+          "stay_type": "family-run posada in the colonial centre",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Coffee farm visit — less commercial than Eje Cafetero, more authentic", "locked_specifics": 2 },
+            { "category": "Guadua cable car over the valley and canyon hike", "locked_specifics": 2 },
+            { "category": "Dawn birdwatching in the Andean cloud forest around the town", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Eje Cafetero (Salento, Filandia & Valle del Cocora)",
+          "nights": 3,
+          "stay_type": "working coffee hacienda with farm access",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Seed-to-cup coffee harvest experience at a family finca", "locked_specifics": 3 },
+            { "category": "Wax palm forest hike in Valle del Cocora — Colombia's national tree", "locked_specifics": 2 },
+            { "category": "Salento and Filandia colonial town photography walk", "locked_specifics": 1 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Treating Jardín as a day trip from Medellín — two nights minimum to feel the town's rhythm and reach the best coffee farms",
+        "Visiting Eje Cafetero on a weekend in high season without booking hacienda accommodation months ahead",
+        "Skipping Filandia in favour of Salento alone — Filandia is less crowded and just as photogenic for the coloured facades",
+        "Not bringing a rain layer for Valle del Cocora — the cloud forest earns its name and afternoon mist is the norm even in dry season"
+      ],
+      "budget_range_usd_per_person": { "low": 1700, "high": 2800 }
     }
   ]
 }

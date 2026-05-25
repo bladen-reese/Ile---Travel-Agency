@@ -110,6 +110,98 @@
         "Visiting Baños during Carnival when the town becomes extremely crowded and rafting conditions are unpredictable"
       ],
       "budget_range_usd_per_person": { "low": 1400, "high": 2200 }
+    },
+    {
+      "id": "ecuador-holistic-amazon-9d",
+      "min_days": 8,
+      "max_days": 12,
+      "interests": ["holistic", "nature", "birdwatching", "cacao", "adventure", "photography"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "is_priority": true,
+      "regions": [
+        {
+          "name": "Mindo (cloud forest)",
+          "nights": 2,
+          "stay_type": "cloud-forest lodge on the western Andes slope",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Dawn birdwatching — Mindo is one of the world's top birding corridors", "locked_specifics": 3 },
+            { "category": "Bean-to-bar cacao experience at a local chocolate producer", "locked_specifics": 2 },
+            { "category": "Butterfly farm and orchid reserve walk", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Baños de Agua Santa",
+          "nights": 2,
+          "stay_type": "riverside boutique or adventure lodge",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Ruta de las Cascadas cycling descent past five waterfalls", "locked_specifics": 2 },
+            { "category": "White-water rafting on the Pastaza river", "locked_specifics": 2 },
+            { "category": "Tungurahua volcano viewpoint at dusk", "locked_specifics": 1 }
+          ]
+        },
+        {
+          "name": "Amazonía (Tena & Suchipakari area)",
+          "nights": 4,
+          "stay_type": "Suchipakari Lodge — Kichwa-community eco-lodge on the Napo river",
+          "stay_locked_count": 5,
+          "activities": [
+            { "category": "Canoe wildlife survey at dawn with Kichwa naturalist guide", "locked_specifics": 3 },
+            { "category": "Medicinal plant and shamanic tradition walk with community elder", "locked_specifics": 3 },
+            { "category": "Cacao harvest and traditional chocolate preparation experience", "locked_specifics": 2 },
+            { "category": "Night hike — frogs, insects and Amazonian soundscape", "locked_specifics": 2 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Visiting Mindo on a weekend when tourist traffic from Quito fills the main road — plan for a mid-week arrival for a quieter experience",
+        "Booking the Amazon leg for fewer than 3 nights — the Suchipakari area rewards slower travel; 4 nights is the minimum to truly settle in",
+        "Combining Baños with a Quito arrival on the same day — the altitude shift and long drive create a rough introduction",
+        "Flying into the Amazon without a yellow fever vaccination and malaria consultation — check health requirements well in advance"
+      ],
+      "budget_range_usd_per_person": { "low": 2000, "high": 3400 }
+    },
+    {
+      "id": "ecuador-pacific-coast-7d",
+      "min_days": 6,
+      "max_days": 9,
+      "interests": ["surf", "party", "birdwatching", "rest", "nature", "beaches"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "is_priority": true,
+      "regions": [
+        {
+          "name": "Montañita & Olón",
+          "nights": 3,
+          "stay_type": "beach hostel or boutique hotel above the main strip",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Surf lessons on one of Ecuador's best point breaks", "locked_specifics": 2 },
+            { "category": "Montañita nightlife and artisan night market", "locked_specifics": 2 },
+            { "category": "Walk or bike to the quieter Olón beach and clifftop church", "locked_specifics": 1 }
+          ]
+        },
+        {
+          "name": "Ayampe & Puerto López",
+          "nights": 3,
+          "stay_type": "beachfront eco-lodge in the quieter stretch north of Montañita",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Humpback whale watching (June–September — confirm seasonal dates)", "locked_specifics": 3 },
+            { "category": "Isla de la Plata day trip — snorkel with sea lions and blue-footed boobies", "locked_specifics": 3 },
+            { "category": "Kayak through the Ayampe mangrove estuary at low tide", "locked_specifics": 2 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Confusing Montañita and Olón — they are back-to-back but very different in atmosphere; Montañita is party-forward, Olón is quieter and family-friendly",
+        "Missing whale season (June–September) if whale watching is a priority — outside this window Puerto López has limited appeal",
+        "Arriving on the coast from Quito in a single long day — break it with a Mindo overnight and arrive rested",
+        "Underestimating Pacific rip currents — swim only at flagged sections and always ask locals before entering unfamiliar breaks"
+      ],
+      "budget_range_usd_per_person": { "low": 1400, "high": 2200 }
     }
   ]
 }

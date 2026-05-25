@@ -109,6 +109,108 @@
         "Visiting Tambopata during the Brazilian nut harvest season when the lodges prioritize sustainability-forest work over tourism activities"
       ],
       "budget_range_usd_per_person": { "low": 2800, "high": 4500 }
+    },
+    {
+      "id": "peru-sacred-andes-holistic-9d",
+      "min_days": 8,
+      "max_days": 12,
+      "interests": ["holistic", "culture", "nature", "photography", "honeymoon", "gastronomy", "adventure"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "is_priority": true,
+      "regions": [
+        {
+          "name": "Cusco",
+          "nights": 2,
+          "stay_type": "colonial-convent boutique hotel in San Blas or near the Plaza de Armas",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Sacsayhuamán fortress at sunrise — acclimatization walk at Inca pace", "locked_specifics": 2 },
+            { "category": "Cusco gastronomy circuit — ceviche de sierra, chupe, novo-Andean tasting menu", "locked_specifics": 2 },
+            { "category": "San Blas artists' quarter and artisan market circuit", "locked_specifics": 1 }
+          ]
+        },
+        {
+          "name": "Sacred Valley (Valle Sagrado)",
+          "nights": 4,
+          "stay_type": "hacienda or eco-lodge with Andean mountain views",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Pisac Inca terrace complex and Sunday market", "locked_specifics": 2 },
+            { "category": "Salt flats at Maras and Moray circular agricultural terraces", "locked_specifics": 2 },
+            { "category": "Sound healing or plant medicine ceremony with a curandera (optional)", "locked_specifics": 3 },
+            { "category": "Ollantaytambo fortress — last Inca stronghold and gateway to Machu Picchu", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Machu Picchu",
+          "nights": 2,
+          "stay_type": "lodge in Aguas Calientes with early-entry ticket access",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Dawn entry to Machu Picchu citadel before the tour groups arrive", "locked_specifics": 3 },
+            { "category": "Huayna Picchu or Sun Gate hike — book permit months in advance", "locked_specifics": 3 },
+            { "category": "Hot springs at Aguas Calientes — evening wind-down after the climb", "locked_specifics": 1 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Flying directly from sea level to Cusco (3,400 m) — altitude sickness ruins more Peru trips than anything else; start in the Sacred Valley to acclimatize first",
+        "Booking Huayna Picchu or Machu Picchu Mountain permits less than 3 months ahead — they sell out completely",
+        "Underestimating the Sacred Valley as 'just the way to Machu Picchu' — the valley itself deserves 3–4 nights; most guests wish they had stayed longer",
+        "Visiting in February when the Inca Trail is fully closed for maintenance and heavy rains affect most highland trails"
+      ],
+      "budget_range_usd_per_person": { "low": 2200, "high": 3800 }
+    },
+    {
+      "id": "peru-high-jungle-tarapoto-10d",
+      "min_days": 9,
+      "max_days": 13,
+      "interests": ["holistic", "nature", "birdwatching", "cacao", "adventure"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "is_priority": true,
+      "regions": [
+        {
+          "name": "Lima (transit)",
+          "nights": 1,
+          "stay_type": "hotel in Miraflores — convenient for the domestic connection",
+          "stay_locked_count": 1,
+          "activities": [
+            { "category": "Lima food scene quick introduction — ceviche and pisco sour in Barranco", "locked_specifics": 1 }
+          ]
+        },
+        {
+          "name": "Tarapoto (Alto Mayo & San Martín region)",
+          "nights": 4,
+          "stay_type": "riverside jungle lodge or boutique eco-stay on the city's edge",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Plant medicine retreat or guided ceremony in the high jungle (optional — vetted operator required)", "locked_specifics": 4 },
+            { "category": "Huallaga River waterfall circuit — Catarata Ahuashiyacu and Shilcayo", "locked_specifics": 2 },
+            { "category": "Cacao farm visit and traditional chocolate preparation with local growers", "locked_specifics": 2 },
+            { "category": "Dawn birdwatching in the Alto Mayo AICA corridor — one of Peru's least-visited birding zones", "locked_specifics": 3 }
+          ]
+        },
+        {
+          "name": "Sacred Valley & Machu Picchu",
+          "nights": 4,
+          "stay_type": "hacienda in the valley, lodge in Aguas Calientes",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Sacred Valley market and Inca ruin circuit at Pisac and Ollantaytambo", "locked_specifics": 2 },
+            { "category": "Machu Picchu dawn entry with private guide", "locked_specifics": 4 },
+            { "category": "Andean community meal or textile workshop in a local village", "locked_specifics": 3 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Booking a plant medicine ceremony without vetting the operator thoroughly — research reputation and safety protocols well in advance",
+        "Combining Tarapoto jungle heat with Cusco altitude in the same week without planning the acclimatization sequence carefully",
+        "Treating Tarapoto as a quick add-on — it requires its own domestic flight from Lima and rewards at least 3–4 nights",
+        "Skipping Tarapoto's bird corridors if wildlife is a priority — the Alto Mayo region is one of Peru's best-kept birding secrets"
+      ],
+      "budget_range_usd_per_person": { "low": 2400, "high": 4000 }
     }
   ]
 }

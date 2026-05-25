@@ -20,6 +20,7 @@ const COUNTRY_TEMPLATE_MAP: Record<string, string> = {
   Brazil: "brazil",
   Argentina: "argentina",
   Peru: "_country_six",
+  "Costa Rica": "costa_rica",
 };
 
 export async function POST(req: NextRequest) {

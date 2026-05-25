@@ -111,6 +111,69 @@
         "Treating the Chiriquí Viejo rafting as an add-on — it deserves a full day and proper conditions"
       ],
       "budget_range_usd_per_person": { "low": 2400, "high": 3800 }
+    },
+    {
+      "id": "panama-priority-circuit-11d",
+      "min_days": 9,
+      "max_days": 14,
+      "interests": ["culture", "party", "holistic", "surf", "coffee", "nature", "adventure", "honeymoon", "gastronomy"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "is_priority": true,
+      "regions": [
+        {
+          "name": "Panama City",
+          "nights": 2,
+          "stay_type": "boutique hotel in Casco Viejo",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Casco Viejo UNESCO walking tour and rooftop cocktail at dusk", "locked_specifics": 2 },
+            { "category": "Panama Canal Miraflores Locks — watching Panamax vessels pass", "locked_specifics": 1 },
+            { "category": "Panama City gastronomy — ceviche, patacones and the Casco food scene", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Bocas del Toro (including Isla Bastimentos)",
+          "nights": 4,
+          "stay_type": "Pure Roots eco-lodge on Isla Bastimentos — wellness and Caribbean immersion",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Snorkel and freedive in the Bastimentos Marine Park coral gardens", "locked_specifics": 3 },
+            { "category": "Surf session at Playa Bluff or Silverbacks (intermediate to advanced)", "locked_specifics": 2 },
+            { "category": "Mangrove kayak at dawn — manatees and pink dolphins occasionally visible", "locked_specifics": 2 },
+            { "category": "Bocas Town night — Afro-Caribbean food and reggaeton waterfront bars", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Boquete (Chiriquí highlands)",
+          "nights": 3,
+          "stay_type": "mountain lodge or coffee finca stay",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Geisha coffee origin experience at one of Panama's most awarded fincas", "locked_specifics": 3 },
+            { "category": "Quetzal trail birding walk in La Amistad biosphere reserve", "locked_specifics": 3 },
+            { "category": "Volcán Barú summit hike at night — arriving for a both-ocean sunrise (strenuous)", "locked_specifics": 2 }
+          ]
+        },
+        {
+          "name": "Valle de Antón",
+          "nights": 2,
+          "stay_type": "boutique hotel inside the extinct volcano crater valley",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Crater rim hike — panoramic views of the caldera from above", "locked_specifics": 2 },
+            { "category": "Thermal hot springs and mineral pools on the crater floor", "locked_specifics": 1 },
+            { "category": "Canopy zip-line through the cloud forest above the valley", "locked_specifics": 2 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Flying between Bocas and Panama City without checking small-plane schedules early — flights sell out in high season and the overland route adds a full day",
+        "Visiting Bocas in October–November when Caribbean swells turn boat transfers rough and rain is near-constant",
+        "Attempting Volcán Barú without proper cold-weather gear — summit temperatures drop below 5°C and the trail starts at midnight",
+        "Booking generic Boquete coffee tours instead of arranging finca visits through a local contact — the top producers are small-batch and require advance reservation"
+      ],
+      "budget_range_usd_per_person": { "low": 2200, "high": 3600 }
     }
   ]
 }

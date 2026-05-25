@@ -102,6 +102,47 @@
         "Not factoring in the Manaus domestic connection when booking international flights — the Manaus connection frequently delays"
       ],
       "budget_range_usd_per_person": { "low": 2200, "high": 3800 }
+    },
+    {
+      "id": "brazil-priority-coast-8d",
+      "min_days": 7,
+      "max_days": 11,
+      "interests": ["party", "culture", "photography", "honeymoon", "nature", "rest", "beaches"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "is_priority": true,
+      "regions": [
+        {
+          "name": "Rio de Janeiro",
+          "nights": 4,
+          "stay_type": "boutique hotel in Santa Teresa, Ipanema or Leblon",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Christ the Redeemer and Corcovado at sunrise — before the crowds arrive", "locked_specifics": 2 },
+            { "category": "Sugarloaf gondola, Lapa neighbourhood and samba bar circuit", "locked_specifics": 3 },
+            { "category": "Ipanema beach morning and Prainha day trip for calm swimming", "locked_specifics": 2 },
+            { "category": "Samba school visit or Carnaval bloco (year-round rehearsals available)", "locked_specifics": 3 }
+          ]
+        },
+        {
+          "name": "Búzios",
+          "nights": 3,
+          "stay_type": "boutique pousada on the Orla Bardot or near Ferradurinha beach",
+          "stay_locked_count": 3,
+          "activities": [
+            { "category": "Schooner cruise around the 23 beaches with snorkel stops", "locked_specifics": 2 },
+            { "category": "Orla Bardot evening stroll and seafood dinner on the cobblestones", "locked_specifics": 2 },
+            { "category": "Quiet morning at Ferradura or Azeda beach before the day-trippers arrive", "locked_specifics": 1 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Staying in Centro Rio instead of Santa Teresa, Ipanema or Leblon — the difference in safety, vibe and proximity is enormous",
+        "Visiting Búzios on a summer long weekend (December–February) when Rio day-trippers pack every restaurant and the roads become a standstill",
+        "Treating Búzios as a one-day trip from Rio — three nights is the minimum to relax into the peninsula's rhythm",
+        "Missing the quieter eastern beaches of Búzios (Azeda, Azedinha) by staying only on the more commercial Geribá side"
+      ],
+      "budget_range_usd_per_person": { "low": 2400, "high": 4000 }
     }
   ]
 }

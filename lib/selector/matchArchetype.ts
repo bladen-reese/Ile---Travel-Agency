@@ -59,6 +59,11 @@ function scoreArchetype(archetype: Archetype, inputs: UserInputs): number {
     score += 10; // budget is above tier — still a reasonable match
   }
 
+  // Priority boost — surfaces partner destinations when scores are otherwise equal
+  if (archetype.is_priority) {
+    score += 15;
+  }
+
   return score;
 }
 

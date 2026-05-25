@@ -1,0 +1,70 @@
+{
+  "routes": [
+    {
+      "id": "ruta-holistica",
+      "name": "Ruta Holística",
+      "duration_days": { "min": 14, "max": 21 },
+      "match_tags": ["holistic", "nature"],
+      "description": "A journey of transformation through the Amazon, Caribbean and Andes — connecting jungle medicine traditions, Caribbean wellness and high-altitude ceremony.",
+      "stops": [
+        { "destination": "Amazonía Ecuador (Tena / Suchipakari)", "country": "Ecuador", "nights": 4, "partner": "Suchipakari Lodge" },
+        { "destination": "Bocas del Toro (Isla Bastimentos)", "country": "Panama", "nights": 4, "partner": "Pure Roots eco-lodge" },
+        { "destination": "Palomino", "country": "Colombia", "nights": 3, "partner": null },
+        { "destination": "Sacred Valley", "country": "Peru", "nights": 4, "partner": null },
+        { "destination": "Tarapoto (optional extension)", "country": "Peru", "nights": 4, "partner": null }
+      ]
+    },
+    {
+      "id": "ruta-del-cafe",
+      "name": "Ruta del Café",
+      "duration_days": { "min": 10, "max": 14 },
+      "match_tags": ["coffee", "nature", "rest"],
+      "description": "From Sierra Nevada cloud forests to Panama's volcanic highlands — a journey along Latin America's finest small-batch coffee belt.",
+      "stops": [
+        { "destination": "Minca", "country": "Colombia", "nights": 3, "partner": null },
+        { "destination": "Jardín", "country": "Colombia", "nights": 2, "partner": null },
+        { "destination": "Eje Cafetero (Salento, Filandia, Valle del Cocora)", "country": "Colombia", "nights": 3, "partner": null },
+        { "destination": "Boquete", "country": "Panama", "nights": 3, "partner": null }
+      ]
+    },
+    {
+      "id": "ruta-del-cacao",
+      "name": "Ruta del Cacao",
+      "duration_days": { "min": 12, "max": 18 },
+      "match_tags": ["cacao", "nature", "gastronomy"],
+      "description": "Trace fine-flavour cacao from cloud forest to Amazon to Caribbean — meeting the growers and makers behind some of the world's most complex chocolate.",
+      "stops": [
+        { "destination": "Mindo", "country": "Ecuador", "nights": 2, "partner": null },
+        { "destination": "Amazonía Ecuador (Tena / Suchipakari)", "country": "Ecuador", "nights": 4, "partner": "Suchipakari Lodge" },
+        { "destination": "Minca", "country": "Colombia", "nights": 2, "partner": null },
+        { "destination": "Bocas del Toro", "country": "Panama", "nights": 3, "partner": "Pure Roots" },
+        { "destination": "Tarapoto", "country": "Peru", "nights": 3, "partner": null }
+      ]
+    },
+    {
+      "id": "ruta-amazonica",
+      "name": "Ruta Amazónica",
+      "duration_days": { "min": 8, "max": 12 },
+      "match_tags": ["nature", "holistic", "birdwatching"],
+      "description": "Two Amazon gateways — the Ecuadorian Napo basin and the Peruvian high jungle — connected by their Kichwa and mestizo plant traditions.",
+      "stops": [
+        { "destination": "Amazonía Ecuador (Tena / Suchipakari)", "country": "Ecuador", "nights": 4, "partner": "Suchipakari Lodge" },
+        { "destination": "Tarapoto", "country": "Peru", "nights": 4, "partner": null }
+      ]
+    },
+    {
+      "id": "ruta-andina",
+      "name": "Ruta Andina",
+      "duration_days": { "min": 12, "max": 18 },
+      "match_tags": ["culture", "photography", "adventure"],
+      "description": "The spine of the Andes — from Argentina's coloured quebradas to the Inca heartland and the most iconic archaeological site in the Americas.",
+      "stops": [
+        { "destination": "Salta", "country": "Argentina", "nights": 3, "partner": null },
+        { "destination": "Jujuy (Quebrada de Humahuaca)", "country": "Argentina", "nights": 3, "partner": null },
+        { "destination": "Cusco", "country": "Peru", "nights": 2, "partner": null },
+        { "destination": "Sacred Valley (Valle Sagrado)", "country": "Peru", "nights": 3, "partner": null },
+        { "destination": "Machu Picchu", "country": "Peru", "nights": 2, "partner": null }
+      ]
+    }
+  ]
+}

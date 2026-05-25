@@ -13,6 +13,7 @@ const COUNTRIES = [
   { id: "Brazil", label: "Brazil", emoji: "🇧🇷" },
   { id: "Argentina", label: "Argentina", emoji: "🇦🇷" },
   { id: "Peru", label: "Peru", emoji: "🇵🇪" },
+  { id: "Costa Rica", label: "Costa Rica", emoji: "🇨🇷" },
 ];
 
 const TRAVELER_TYPES = [
@@ -26,9 +27,16 @@ const INTERESTS = [
   { id: "nature", label: "Nature & wildlife" },
   { id: "beaches", label: "Beaches & islands" },
   { id: "culture", label: "Culture & history" },
-  { id: "coffee", label: "Food & coffee" },
+  { id: "coffee", label: "Coffee" },
   { id: "adventure", label: "Adventure & hiking" },
-  { id: "slow", label: "Slow & relaxed" },
+  { id: "rest", label: "Rest & slow travel" },
+  { id: "holistic", label: "Holistic & wellness" },
+  { id: "honeymoon", label: "Romance & honeymoon" },
+  { id: "party", label: "Nightlife & party" },
+  { id: "photography", label: "Photography" },
+  { id: "birdwatching", label: "Birdwatching" },
+  { id: "surf", label: "Surf" },
+  { id: "gastronomy", label: "Gastronomy" },
 ];
 
 const MONTHS = [

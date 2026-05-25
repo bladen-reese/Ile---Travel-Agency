@@ -23,6 +23,7 @@ export const ArchetypeSchema = z.object({
   interests: z.array(z.string()),
   travelers: z.array(z.string()),
   budget_tier: z.enum(["mid", "upper-mid", "luxury"]),
+  is_priority: z.boolean().optional(),
   regions: z.array(RegionSchema),
   common_mistakes: z.array(z.string()),
   budget_range_usd_per_person: z.object({ low: z.number(), high: z.number() }),

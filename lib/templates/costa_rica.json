@@ -1,0 +1,46 @@
+{
+  "country": "Costa Rica",
+  "default_archetype_id": "costa-rica-caribbean-7d",
+  "archetypes": [
+    {
+      "id": "costa-rica-caribbean-7d",
+      "min_days": 5,
+      "max_days": 8,
+      "interests": ["party", "surf", "birdwatching", "nature", "rest", "holistic", "adventure"],
+      "travelers": ["couples", "families"],
+      "budget_tier": "mid",
+      "is_priority": true,
+      "regions": [
+        {
+          "name": "San José (transit)",
+          "nights": 1,
+          "stay_type": "boutique hotel in Barrio Escalante or near the airport",
+          "stay_locked_count": 2,
+          "activities": [
+            { "category": "Barrio Escalante food and coffee scene — best introduction to Costa Rican gastronomy", "locked_specifics": 1 },
+            { "category": "Mercado Central orientation walk", "locked_specifics": 1 }
+          ]
+        },
+        {
+          "name": "Puerto Viejo (Southern Caribbean)",
+          "nights": 5,
+          "stay_type": "beachfront bungalow or Afro-Caribbean guesthouse in Cocles or Manzanillo",
+          "stay_locked_count": 4,
+          "activities": [
+            { "category": "Surf Salsa Brava — one of Costa Rica's most powerful reef breaks (experienced surfers)", "locked_specifics": 3 },
+            { "category": "Cahuita National Park snorkel and jungle trail — coral reef and Caribbean marine life", "locked_specifics": 2 },
+            { "category": "Chocolate tour at a local cacao farm in the Talamanca mountains", "locked_specifics": 2 },
+            { "category": "Manzanillo beach and Gandoca-Manzanillo Wildlife Refuge dawn walk", "locked_specifics": 2 }
+          ]
+        }
+      ],
+      "common_mistakes": [
+        "Renting a car for Puerto Viejo without knowing the Caribbean coast road — it's 220 km from San José but the last section is slow; a direct shuttle is often more comfortable",
+        "Visiting in October when Caribbean rainfall is at its peak — December to April and July to September are the most reliable windows",
+        "Confusing Puerto Viejo with other Costa Rican beach towns — the Caribbean side has a distinct Afro-Caribbean culture, reggae vibe and food completely different from the Pacific coast",
+        "Crossing the border to Bocas del Toro (Panama) without checking the Sixaola–Guabito crossing hours — it closes at 6 pm and is cash-only on the Panamanian side"
+      ],
+      "budget_range_usd_per_person": { "low": 1600, "high": 2800 }
+    }
+  ]
+}
