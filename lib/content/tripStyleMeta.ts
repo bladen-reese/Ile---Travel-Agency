@@ -8,6 +8,7 @@ export const tripStyleMeta = [
   { id: "beaches",      photo: "/photos/styles/beaches.jpg",      emoji: "🏝️" },
   { id: "wellness",     photo: "/photos/styles/wellness.jpg",     emoji: "🧘" },
   { id: "rest",         photo: "/photos/styles/rest.jpg",         emoji: "🌅" },
+  { id: "solo_women",   photo: "/photos/styles/solo_women.jpg",   emoji: "🌺" },
   { id: "coffee",       photo: "/photos/styles/coffee.jpg",       emoji: "☕" },
   { id: "holistic",     photo: "/photos/styles/holistic.jpg",     emoji: "🌿" },
   { id: "honeymoon",    photo: "/photos/styles/honeymoon.jpg",    emoji: "🌹" },
