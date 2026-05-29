@@ -8,10 +8,10 @@ export const t = {
       planATrip: "Plan a trip",
     },
     hero: {
-      eyebrow: "Latin America · Concierge Travel",
+      eyebrow: "Latin America · Women's Travel · Concierge",
       heading1: "Built on places",
       heading2: "we've actually been.",
-      body: "At Yaguareté Travels we design personalized trips tailored to each person, couple, or group. We build travel experiences around rest, adventure, nature, wellness, nightlife, romantic getaways, holistic retreats, and journeys to discover new places and people — always adapting to your budget and travel style. We stand out by finding safe, comfortable spaces with genuine hospitality, personalized attention, and committed service so all you have to do is enjoy the trip.",
+      body: "Yaguaréte Travels is built by Ile — a woman who has traveled Latin America solo and with groups. Every accommodation, guide, and experience we recommend comes from her own time on the ground. We design trips for solo women, couples, and small groups around rest, adventure, nature, wellness, and discovery — always in vetted spaces where you'll feel genuinely safe and welcome.",
       cta: "Build your trip →",
       howItWorks: "How it works",
     },
@@ -132,6 +132,26 @@ export const t = {
       primary: "Build my trip →",
       whatsapp: "Message on WhatsApp",
     },
+    solo: {
+      eyebrow: "Built for women travelers",
+      heading: "Ile has been there. You can trust what she recommends.",
+      body: "Every accommodation, guide, and experience on this site comes from Ile's own travels through Latin America — solo and with groups. She knows which neighborhoods feel safe at night, which lodge owners look out for their guests, and which guides are worth the trust. No aggregated reviews. No database. Personal experience.",
+      pillars: [
+        {
+          title: "Personally vetted, by a woman who's been there",
+          body: "Every property and guide we recommend has been visited and assessed by Ile herself — including how they treat women traveling alone. If she wouldn't stay there solo, it's not on the list.",
+        },
+        {
+          title: "Women-only group trips available",
+          body: "Prefer to travel with a curated group rather than completely solo? Ask us about our women's group itineraries. Small groups, trusted logistics, like-minded company.",
+        },
+        {
+          title: "Always reachable, always in your corner",
+          body: "A pre-departure briefing, a local contact in each region, and Ile available on WhatsApp before, during, and after your trip. You're never left to figure it out alone.",
+        },
+      ],
+      cta: "Plan your trip with Ile →",
+    },
     footer: {
       tagline: "Latin America travel design. We've been there. We can help you get there too.",
       countries: "Countries",
@@ -149,10 +169,10 @@ export const t = {
       planATrip: "Planificar viaje",
     },
     hero: {
-      eyebrow: "América Latina · Viajes a medida",
+      eyebrow: "América Latina · Viajes para mujeres · A medida",
       heading1: "Construyendo experiencias",
       heading2: "desde lugares que hemos estado.",
-      body: "En Yaguareté Travels diseñamos viajes personalizados pensados para cada persona, pareja o grupo. Organizamos experiencias turísticas con enfoques de descanso, aventura, naturaleza, bienestar, fiestas, escapadas románticas, holísticos, y viajes para conocer nuevos lugares y personas, siempre adaptándonos a tu presupuesto y estilo de viaje. Nos destacamos por buscar espacios seguros con comodidad, buen trato, atención personalizada y servicios comprometidos para que solo tengas que disfrutar el viaje.",
+      body: "Yaguaréte Travels fue creado por Ile — una mujer que ha viajado sola y en grupo por América Latina. Cada alojamiento, guía y experiencia que recomendamos viene de su tiempo real sobre el terreno. Diseñamos viajes para mujeres que viajan solas, parejas y grupos pequeños, siempre en espacios verificados donde vas a sentirte genuinamente segura y bienvenida.",
       cta: "Diseña tu viaje →",
       howItWorks: "Cómo funciona",
     },
@@ -272,6 +292,26 @@ export const t = {
       body: "Responde seis preguntas y trazaremos una ruta que tenga sentido real — las regiones, el ritmo y los errores que comete la mayoría.",
       primary: "Diseña mi viaje →",
       whatsapp: "Escríbenos por WhatsApp",
+    },
+    solo: {
+      eyebrow: "Pensado para mujeres viajeras",
+      heading: "Ile estuvo allí. Puedes confiar en lo que recomienda.",
+      body: "Cada alojamiento, guía y experiencia en este sitio viene de los viajes de Ile por América Latina — sola y en grupo. Sabe qué barrios se sienten seguros de noche, qué dueños de lodge cuidan a sus huéspedes y qué guías merecen la confianza. No son puntuaciones ni reseñas. Es experiencia personal.",
+      pillars: [
+        {
+          title: "Verificado personalmente, por una mujer que estuvo allí",
+          body: "Cada propiedad y guía que recomendamos fue visitado y evaluado por Ile — incluyendo cómo tratan a las mujeres que viajan solas. Si ella no se quedaría allí sola, no está en la lista.",
+        },
+        {
+          title: "Viajes grupales solo para mujeres disponibles",
+          body: "¿Preferís viajar con un grupo seleccionado en lugar de hacerlo completamente sola? Preguntanos por nuestros itinerarios grupales para mujeres. Grupos pequeños, logística confiable, buena compañía.",
+        },
+        {
+          title: "Siempre disponibles, siempre de tu lado",
+          body: "Un briefing antes de salir, un contacto local en cada región e Ile disponible por WhatsApp antes, durante y después de tu viaje. Nunca estás sola para resolverlo.",
+        },
+      ],
+      cta: "Planifica tu viaje con Ile →",
     },
     footer: {
       tagline: "Diseño de viajes por América Latina. Hemos estado allí. Podemos ayudarte a llegar.",
