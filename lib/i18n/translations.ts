@@ -8,7 +8,7 @@ export const t = {
       planATrip: "Plan a trip",
     },
     hero: {
-      eyebrow: "Latin America · Women's Travel · Concierge",
+      eyebrow: "Latin America · Concierge Travel",
       heading1: "Built on places",
       heading2: "we've actually been.",
       body: "Yaguaréte Travels is built by Ile — a woman who has traveled Latin America solo and with groups. Every accommodation, guide, and experience we recommend comes from her own time on the ground. We design trips for solo women, couples, and small groups around rest, adventure, nature, wellness, and discovery — always in vetted spaces where you'll feel genuinely safe and welcome.",
@@ -169,7 +169,7 @@ export const t = {
       planATrip: "Planificar viaje",
     },
     hero: {
-      eyebrow: "América Latina · Viajes para mujeres · A medida",
+      eyebrow: "América Latina · Viajes a medida",
       heading1: "Construyendo experiencias",
       heading2: "desde lugares que hemos estado.",
       body: "Yaguaréte Travels fue creado por Ile — una mujer que ha viajado sola y en grupo por América Latina. Cada alojamiento, guía y experiencia que recomendamos viene de su tiempo real sobre el terreno. Diseñamos viajes para mujeres que viajan solas, parejas y grupos pequeños, siempre en espacios verificados donde vas a sentirte genuinamente segura y bienvenida.",
