@@ -176,7 +176,7 @@ export const t = {
       eyebrow: "América Latina · Viajes a medida",
       heading1: "Construyendo experiencias",
       heading2: "desde lugares que hemos estado.",
-      body: "El objetivo de Yaguaréte Travels es que conozcas y disfrutes de los mejores paisajes, descanses, te diviertas y renueves tu energía. Diseñamos experiencias de viaje pensadas para que te desconectes de la rutina, vivas momentos inolvidables y regreses con recuerdos únicos y las pilas recargadas.",
+      body: "El objetivo de Yaguareté Travels es que conozcas y disfrutes de los mejores paisajes, descanses, te diviertas y renueves tu energía. Diseñamos experiencias de viaje pensadas para que te desconectes de la rutina, vivas momentos inolvidables y regreses con recuerdos únicos y las pilas recargadas.",
       cta: "Diseña tu viaje →",
       howItWorks: "Cómo funciona",
     },
