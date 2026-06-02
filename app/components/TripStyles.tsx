@@ -34,13 +34,10 @@ export default function TripStyles() {
                     src={meta.photo}
                     alt={style.label}
                     fill
-                    className="object-cover"
+                    className={`object-cover${meta.id === "holistic" ? " object-left" : ""}`}
                     sizes="220px"
                   />
                   <div className="absolute inset-0 bg-stone-900/20" />
-                  <div className="absolute bottom-3 left-3">
-                    <span className="text-2xl">{meta.emoji}</span>
-                  </div>
                 </div>
 
                 {/* Label + headline */}
