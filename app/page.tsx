@@ -1,6 +1,5 @@
 import SiteNav from "./components/SiteNav";
 import Hero from "./components/Hero";
-import HowItWorks from "./components/HowItWorks";
 import TripStyles from "./components/TripStyles";
 import ProofOfStay from "./components/ProofOfStay";
 import FeaturedBocas from "./components/FeaturedBocas";
@@ -12,7 +11,6 @@ export default function Home() {
     <>
       <SiteNav />
       <Hero />
-      <HowItWorks />
       <TripStyles />
       <ProofOfStay />
       <FeaturedBocas />
