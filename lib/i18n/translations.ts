@@ -257,10 +257,10 @@ export const t = {
         {
           label: "Playas e islas",
           headline: "Caribe, Pacífico y playas de río — experiencias muy distintas",
-          description: "El turquesa caribeño y el verde-gris del Pacífico son aguas completamente diferentes con diferentes multitudes y diferentes actividades. Archipiélagos de islas accesibles en lancha, playas de arena negra volcánica, playas de agua dulce en medio de la selva — adaptamos la costa a lo que realmente buscás.",
-          typicalShape: "Generalmente 3–4 noches en la costa después de una sección de montaña o ciudad",
-          budgetNote: "Los traslados a islas elevan los costos; sabemos cuáles valen la pena.",
-          bestFor: "Familias y parejas; funciona mejor como parte de un viaje más largo y variado",
+          description: "Nos gusta que conozcas distintos tipos de costas en diferentes ubicaciones, con el plan que mejor se adapte a tus necesidades. Dentro de él pueden incluirse días de descanso con hermosas vistas y/o diferentes tours, como paseos en bote, clases de surf o buceo, snorkel, kayak, catamarán y muchas más aventuras costeras.",
+          typicalShape: "",
+          budgetNote: "",
+          bestFor: "",
         },
         {
           label: "Viaje lento y bienestar",
