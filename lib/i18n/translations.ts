@@ -11,7 +11,7 @@ export const t = {
       eyebrow: "Latin America",
       heading1: "Built on places",
       heading2: "we've actually been.",
-      body: "AT YAGUARÉTE TRAVELS OUR GOAL IS FOR YOU TO DISCOVER AND ENJOY THE BEST LANDSCAPES, REST, HAVE FUN, AND RENEW YOUR ENERGY. WE DESIGN TRAVEL EXPERIENCES TAILORED SPECIFICALLY TO YOUR PERSONALITY, INTERESTS, AND NEEDS — WHETHER YOU TRAVEL SOLO, AS A COUPLE, WITH FRIENDS, WITH FAMILY, OR IN A GROUP.",
+      body: "At Yaguaréte Travels our goal is for you to discover and enjoy the best landscapes, rest, have fun, and renew your energy. We design travel experiences tailored specifically to your personality, interests, and needs — whether you travel solo, as a couple, with friends, with family, or in a group.",
       cta: "Build your trip →",
       howItWorks: "How it works",
     },
@@ -153,7 +153,7 @@ export const t = {
     featured: {
       eyebrow: "Featured · 2026–2027",
       heading: "Open calendar for trips to the paradisiacal Caribbean beaches of Bocas del Toro 2026–2027",
-      body: "",
+      body: "Personalized circuits: beaches and islands, local gastronomy, wildlife watching, snorkeling tours, visits to different types of corals and reefs, catamaran and diving, visits to the Cave of the Bats, and unique accommodations.",
       cards: [
         { label: "Island-hopping by boat", caption: "Red Frog, Cayo Zapatilla, and the quiet bays in between — on a schedule that dodges the day-trippers." },
         { label: "Through the mangrove channels", caption: "Paddle the still morning water between the red mangrove roots, with the jungle arching right over the bow." },
@@ -186,7 +186,7 @@ export const t = {
       eyebrow: "América Latina",
       heading1: "Construyendo experiencias",
       heading2: "desde lugares que hemos estado.",
-      body: "EL OBJETIVO DE YAGUARETÉ TRAVELS ES QUE CONOZCAS Y DISFRUTES DE LOS MEJORES PAISAJES, DESCANSES, TE DIVIERTAS Y RENUEVES TU ENERGÍA. DISEÑAMOS EXPERIENCIAS DE VIAJE PENSADAS ESPECIALMENTE PARA TU PERSONALIDAD, INTERESES Y NECESIDADES, YA SEA QUE VIAJES SOLO/A, EN PAREJA, CON AMIGOS, EN FAMILIA O EN GRUPO.",
+      body: "El objetivo de Yaguareté Travels es que conozcas y disfrutes de los mejores paisajes, descanses, te diviertas y renueves tu energía. Diseñamos experiencias de viaje pensadas especialmente para tu personalidad, intereses y necesidades, ya sea que viajes solo/a, en pareja, con amigos, en familia o en grupo.",
       cta: "Diseña tu viaje →",
       howItWorks: "Cómo funciona",
     },
@@ -328,7 +328,7 @@ export const t = {
     featured: {
       eyebrow: "Destacado · 2026–2027",
       heading: "Agenda abierta para viajes a las playas paradisíacas del Caribe en Bocas del Toro 2026–2027",
-      body: "",
+      body: "Circuitos personalizados: playas e islas, gastronomía local, avistamiento de fauna, diferentes tours de snorkel, visitas a distintos tipos de corales y arrecifes, catamarán y buceo, visitas a la Cueva de los Murciélagos y hospedajes únicos.",
       cards: [
         { label: "Navegando entre islas", caption: "Red Frog, Cayo Zapatilla y las bahías tranquilas que quedan en medio — con un itinerario que evita a los excursionistas de un día." },
         { label: "Entre los canales de manglar", caption: "Rema en el agua quieta de la mañana entre las raíces de mangle rojo, con la selva arqueándose sobre la proa." },
