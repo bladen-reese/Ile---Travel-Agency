@@ -74,14 +74,6 @@ export const t = {
           bestFor: "Anyone who wants to earn the view; solo travelers, couples, and groups with a shared fitness baseline",
         },
         {
-          label: "Food & coffee",
-          headline: "Origin visits, market mornings, and regional cooking",
-          description: "Coffee highland farms where you follow the process from cherry to cup, coastal fishing communities that cook what came in that morning, highland markets with produce you won't find anywhere else, wine regions where the producers are still the ones pouring. Eating with context.",
-          typicalShape: "Concentrated in 2–3 food-strong regions; mix of farm visits, market mornings, and meal-focused days",
-          budgetNote: "Mid-range. Good food experiences aren't necessarily expensive here.",
-          bestFor: "Couples and small groups who eat to understand a place; pairs well with culture trips",
-        },
-        {
           label: "Beaches & islands",
           headline: "Caribbean, Pacific, and river beaches — very different things",
           description: "The Caribbean's turquoise and the Pacific's grey-green are completely different waters with different crowds and different things to do. Island archipelagos reached by boat, volcanic black sand beaches, freshwater river beaches surrounded by jungle — we match the coast to what you're actually after.",
@@ -261,14 +253,6 @@ export const t = {
           typicalShape: "Estadías más largas en menos lugares; una o dos travesías principales con días de recuperación; madrugones",
           budgetNote: "Variable — algunos de los mejores trekking están en parques nacionales con infraestructura básica.",
           bestFor: "Quien quiere ganarse la vista; viajeros en solitario, parejas y grupos con nivel físico similar",
-        },
-        {
-          label: "Gastronomía y café",
-          headline: "Visitas de origen, mañanas de mercado y cocina regional",
-          description: "Fincas cafeteras en tierras altas donde seguís el proceso desde la cereza hasta la taza, comunidades pesqueras costeras que cocinan lo que llegó esa mañana, mercados de altura con productos que no encontrarás en ningún otro lugar, regiones vitivinícolas donde todavía son los productores quienes sirven. Comer con contexto.",
-          typicalShape: "Concentrado en 2–3 regiones con fuerte identidad gastronómica; mezcla de visitas a fincas, mañanas de mercado y días centrados en la comida",
-          budgetNote: "Nivel medio. Las buenas experiencias gastronómicas no son necesariamente caras aquí.",
-          bestFor: "Parejas y grupos pequeños que comen para entender un lugar; combina bien con viajes culturales",
         },
         {
           label: "Playas e islas",
