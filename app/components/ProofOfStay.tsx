@@ -4,15 +4,6 @@ import Image from "next/image";
 import { stays } from "@/lib/content/stays";
 import { useLang } from "@/lib/i18n/LanguageContext";
 
-const FLAG: Record<string, string> = {
-  Panama: "🇵🇦",
-  Colombia: "🇨🇴",
-  Ecuador: "🇪🇨",
-  Argentina: "🇦🇷",
-  Brazil: "🇧🇷",
-  Peru: "🇵🇪",
-};
-
 const BG: Record<string, string> = {
   Panama: "bg-emerald-900",
   Colombia: "bg-yellow-900",
@@ -50,15 +41,11 @@ export default function ProofOfStay() {
             <div className={`absolute inset-0 ${bg}`} />
           )}
           <div className="absolute inset-0 bg-stone-900/10" />
-          <span className="absolute top-3 left-3 text-lg leading-none">
-            {FLAG[stay.country]}
-          </span>
         </div>
         <div className="mt-2.5">
           <p className="text-xs font-medium text-stone-500 uppercase tracking-[0.15em]">
-            {stay.country} · {stay.region}
+            {stay.region}
           </p>
-          <p className="text-stone-600 text-sm italic mt-0.5">&ldquo;{stay.standout}&rdquo;</p>
         </div>
       </div>
     );

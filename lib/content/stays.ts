@@ -14,22 +14,22 @@ export interface StayEntry {
 
 export const stays: StayEntry[] = [
   {
-    country: "Panama",
-    region: "Boquete highlands",
+    country: "Colombia",
+    region: "Casa Isabel, Cartagena",
     stayType: "Coffee finca, Alto Quiel area",
-    photo: "/photos/placeholder.jpg",
-    photoAlt: "Morning mist over the coffee fields in Boquete",
+    photo: "/photos/styles/DJI_0662.jpg",
+    photoAlt: "Casa Isabel, Cartagena",
     note:
       "We arrived in the late afternoon when the cloud forest was still dripping from the morning rain. The owners walked us through the drying beds and explained why altitude and shade matter more than any marketing claim. Breakfast the next morning — eggs from their own chickens, toast with their own coffee — was one of the better meals of the trip.",
     month: "February 2024",
     standout: "The silence at 5am before the birds start.",
   },
   {
-    country: "Colombia",
-    region: "Eje Cafetero",
+    country: "Peru",
+    region: "Villa Del Sol, Mancora",
     stayType: "Working coffee hacienda, outside Salento",
-    photo: "/photos/placeholder.jpg",
-    photoAlt: "The hacienda courtyard at dusk, Salento",
+    photo: "/photos/styles/DJI_0272.jpg",
+    photoAlt: "Villa Del Sol, Mancora",
     note:
       "Four nights was the right amount — two felt rushed when we tried it on an earlier trip. The hacienda has been in the same family for three generations and they have strong opinions about which varietals are worth the effort. We walked Cocora Valley on day two; the wax palms look exactly like the photos and somehow still manage to surprise you.",
     month: "October 2023",
@@ -37,10 +37,10 @@ export const stays: StayEntry[] = [
   },
   {
     country: "Ecuador",
-    region: "Napo Province, Amazon",
+    region: "Natur Hotel, Cuenca",
     stayType: "River-access eco-lodge, Kichwa community",
-    photo: "/photos/placeholder.jpg",
-    photoAlt: "Canoe on the Napo River at dawn",
+    photo: "/photos/styles/DJI_0629.jpeg",
+    photoAlt: "Natur Hotel, Cuenca",
     note:
       "The boat ride in is part of the experience — you pass fishing communities and the light changes every ten minutes. The lodge itself is simple but the guiding is exceptional; our guide identified 40-something bird species before 8am on the first morning. At night the forest is completely different: frogs, insects, the occasional caiman eye catching your headlamp across the water.",
     month: "July 2023",
