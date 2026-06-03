@@ -22,6 +22,14 @@ const KEYWORD_FILES: [string, string[]][] = [
   ["nav", ["app/components/SiteNav.tsx"]],
   ["how it works", ["app/components/HowItWorks.tsx"]],
   ["cómo funciona", ["app/components/HowItWorks.tsx"]],
+  ["countries", ["app/page.tsx"]],
+  ["países", ["app/page.tsx"]],
+  ["six countries", ["app/page.tsx"]],
+  ["seis países", ["app/page.tsx"]],
+  ["proof", ["app/page.tsx"]],
+  ["places we've", ["app/page.tsx"]],
+  ["lugares donde", ["app/page.tsx"]],
+  ["page.tsx", ["app/page.tsx"]],
 ];
 
 // ── Operation types returned by Claude ──────────────────────────────────────
@@ -38,29 +46,41 @@ You will receive the current file contents. Return ONLY raw JSON — no markdown
   "ops": [ ... ]
 }
 
+## Page sections (in order on the landing page)
+- Hero — heading, body, CTA button
+- HowItWorks — "How a trip comes together" / "Cómo se construye un viaje"
+- TripStyles — "Different travelers want different things" / "Cada viajero busca algo diferente"
+- ProofOfStay — "Places we've actually stayed" / "Lugares donde realmente nos alojamos"
+- Countries — "Six countries, each with a distinct logic" / "Seis países, cada uno con su propia lógica"
+- BottomCTA — "Ready to sketch your trip?" / "¿Listo para esbozar tu viaje?"
+- SiteFooter
+
+To REMOVE a section entirely, use replace_file on app/page.tsx and omit the component.
+To EDIT section text, use set_key on the relevant translations.ts key.
+
 ## Operation types
 
 ### Remove a trip style card
 { "op": "remove_style", "id": "<id from tripStyleMeta>" }
-This removes the style from BOTH languages in translations.ts AND from tripStyleMeta.ts automatically. No need to touch files manually.
+This removes the style from BOTH languages in translations.ts AND from tripStyleMeta.ts automatically.
 
 Available style IDs: nature, culture, adventure, beaches, wellness, rest, holistic, honeymoon, party, photography, birdwatching, surf
-(food has already been removed)
 
-### Set a simple translation key (hero, nav, footer, cta, proof text, etc.)
+### Set a simple translation key
 { "op": "set_key", "path": "en.hero.heading1", "en": "New English text", "es": "Nuevo texto en español" }
 The "path" uses dot notation into the translations object. Always provide both "en" and "es".
 
-### Replace an entire file (for complex changes only — avoid if possible)
-{ "op": "replace_file", "path": "lib/content/stays.ts", "content": "COMPLETE file content" }
-Only use this for stays.ts or small component files. NEVER use replace_file for translations.ts or tripStyleMeta.ts.
+### Replace an entire file
+{ "op": "replace_file", "path": "app/page.tsx", "content": "COMPLETE file content" }
+Use for app/page.tsx (to remove/reorder sections) or stays.ts or small components. NEVER use for translations.ts or tripStyleMeta.ts.
 
 ## Rules
 1. Prefer remove_style and set_key — they are fast and reliable
 2. Never use replace_file for translations.ts — use set_key instead
 3. For trip style text changes, use set_key with path like "en.tripStyles.styles.2.description" (0-indexed)
-4. If a request is unclear, set ops to [] and ask in the reply
-5. Never ask Ile to paste file contents`;
+4. Match section names to the page section list above — never ask for clarification about which section when the name matches a known section heading
+5. Never ask Ile to paste file contents
+6. If truly unclear (not just a section name question), set ops to [] and ask once`;
 
 async function readFromGitHub(filePath: string): Promise<{ content: string; sha: string } | null> {
   try {
