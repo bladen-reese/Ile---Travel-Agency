@@ -119,7 +119,8 @@ Return ONLY raw JSON — no markdown, no code fences:
 5. All TypeScript must be syntactically valid — watch quotes, brackets, commas
 6. Preserve all existing content unless Ile explicitly says to remove it
 7. If a request is unclear, ask in the reply and return empty changes array
-8. If a change would require a photo that doesn't exist yet, note it in the reply`;
+8. If a change would require a photo that doesn't exist yet, note it in the reply
+9. NEVER ask Ile to paste or share file contents — the files are loaded automatically from GitHub. If files are missing from context, tell Ile there was a technical issue loading files and to try again`;
 
 async function readFromGitHub(
   filePath: string
