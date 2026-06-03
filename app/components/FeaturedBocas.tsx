@@ -25,6 +25,10 @@ export default function FeaturedBocas() {
           {tr.featured.body}
         </p>
 
+        <p className="font-serif text-2xl text-white mb-6">
+          {tr.featured.cardsHeading}
+        </p>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {tr.featured.cards.map((card, i) => {
             const photo = PHOTOS[i];

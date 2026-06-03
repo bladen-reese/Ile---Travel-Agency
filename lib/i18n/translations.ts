@@ -153,7 +153,8 @@ export const t = {
     featured: {
       eyebrow: "Featured · 2026–2027",
       heading: "Open calendar for trips to the paradisiacal Caribbean beaches of Bocas del Toro 2026–2027",
-      body: "Personalized circuits: beaches and islands, local gastronomy, wildlife watching, snorkeling tours, visits to different types of corals and reefs, catamaran and diving, visits to the Cave of the Bats, and unique accommodations.",
+      body: "Personalized circuits: beaches and islands, local gastronomy, wildlife watching, snorkeling tours, visits to different types of corals and reefs, catamaran and diving, visits to the bat caves, and unique accommodations.",
+      cardsHeading: "Activities I've experienced and recommend",
       cards: [
         { label: "Island-hopping by boat", caption: "Red Frog, Cayo Zapatilla, and the quiet bays in between — on a schedule that dodges the day-trippers." },
         { label: "Through the mangrove channels", caption: "Paddle the still morning water between the red mangrove roots, with the jungle arching right over the bow." },
@@ -329,6 +330,7 @@ export const t = {
       eyebrow: "Destacado · 2026–2027",
       heading: "Agenda abierta para viajes a las playas paradisíacas del Caribe en Bocas del Toro 2026–2027",
       body: "Circuitos personalizados: playas e islas, gastronomía local, avistamiento de fauna, diferentes tours de snorkel, visitas a distintos tipos de corales y arrecifes, catamarán y buceo, visitas a la Cueva de los Murciélagos y hospedajes únicos.",
+      cardsHeading: "Actividades que presencié y recomiendo",
       cards: [
         { label: "Navegando entre islas", caption: "Red Frog, Cayo Zapatilla y las bahías tranquilas que quedan en medio — con un itinerario que evita a los excursionistas de un día." },
         { label: "Entre los canales de manglar", caption: "Rema en el agua quieta de la mañana entre las raíces de mangle rojo, con la selva arqueándose sobre la proa." },
