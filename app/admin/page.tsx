@@ -62,6 +62,9 @@ export default function AdminPage() {
     setMessages((prev) => [...prev, { role: "user", content: text }]);
     setLoading(true);
 
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 55000);
+
     try {
       const res = await fetch("/api/admin/chat", {
         method: "POST",
@@ -70,7 +73,9 @@ export default function AdminPage() {
           message: text,
           password: sessionStorage.getItem("ytadmin"),
         }),
+        signal: controller.signal,
       });
+      clearTimeout(timeout);
 
       if (res.status === 401) {
         sessionStorage.removeItem("ytadmin");
@@ -89,12 +94,16 @@ export default function AdminPage() {
           error: !res.ok || data.error,
         },
       ]);
-    } catch {
+    } catch (err) {
+      clearTimeout(timeout);
+      const isTimeout = err instanceof Error && err.name === "AbortError";
       setMessages((prev) => [
         ...prev,
         {
           role: "assistant",
-          content: "Error de conexión. Por favor intentá de nuevo.",
+          content: isTimeout
+            ? "La solicitud tardó demasiado. Por favor intentá de nuevo."
+            : "Error de conexión. Por favor intentá de nuevo.",
           error: true,
         },
       ]);
