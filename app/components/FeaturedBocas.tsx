@@ -18,7 +18,7 @@ export default function FeaturedBocas() {
         <p className="text-xs font-medium uppercase tracking-[0.2em] text-amber-500 mb-4">
           {tr.featured.eyebrow}
         </p>
-        <h2 className="font-serif text-4xl sm:text-5xl text-white mb-12 leading-tight max-w-2xl">
+        <h2 className="font-serif text-4xl sm:text-5xl text-white mb-12 leading-tight">
           {tr.featured.heading}
         </h2>
 
