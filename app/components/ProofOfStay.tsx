@@ -14,9 +14,7 @@ const BG: Record<string, string> = {
 
 export default function ProofOfStay() {
   const { tr } = useLang();
-  const featured = stays.slice(0, 5);
-  const top = featured.slice(0, 3);
-  const bottom = featured.slice(3, 5);
+  const top = stays.slice(0, 3);
 
   function PhotoCard({
     stay,
@@ -64,17 +62,10 @@ export default function ProofOfStay() {
           {tr.proof.body}
         </p>
 
-        {/* Top row — 3 portrait photos */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-4">
+        {/* 3 portrait photos */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           {top.map((stay, i) => (
             <PhotoCard key={i} stay={stay} aspect="aspect-[3/4]" />
-          ))}
-        </div>
-
-        {/* Bottom row — 2 landscape photos */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {bottom.map((stay, i) => (
-            <PhotoCard key={i} stay={stay} aspect="aspect-[16/9]" />
           ))}
         </div>
 

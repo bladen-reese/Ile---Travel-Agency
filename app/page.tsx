@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
 import TripStyles from "./components/TripStyles";
 import ProofOfStay from "./components/ProofOfStay";
-import Countries from "./components/Countries";
+import FeaturedBocas from "./components/FeaturedBocas";
 import BottomCTA from "./components/BottomCTA";
 import SiteFooter from "./components/SiteFooter";
 
@@ -15,7 +15,7 @@ export default function Home() {
       <HowItWorks />
       <TripStyles />
       <ProofOfStay />
-      <Countries />
+      <FeaturedBocas />
       <BottomCTA />
       <SiteFooter />
     </>

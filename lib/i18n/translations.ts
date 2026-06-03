@@ -150,6 +150,16 @@ export const t = {
         { name: "Peru", flag: "🇵🇪", tagline: "Sacred Valley, Amazon, Lima food scene", highlight: "More depth than Machu Picchu alone suggests" },
       ],
     },
+    featured: {
+      eyebrow: "Featured · 2026–2027",
+      heading: "Bocas del Toro, before everyone else catches on",
+      body: "For the 2026–2027 season we're building small-group and private trips to Bocas del Toro — the Caribbean archipelago where the jungle meets the water. Mangrove channels, surf breaks, and overwater cabins, planned around the calmest months and the best light.",
+      cards: [
+        { label: "Island-hopping by boat", caption: "Red Frog, Cayo Zapatilla, and the quiet bays in between — on a schedule that dodges the day-trippers." },
+        { label: "Surf & slow mornings", caption: "Warm water, consistent breaks, and a coastal town to call home for a week." },
+      ],
+      note: "Limited departures — 2026–2027 dates opening soon.",
+    },
     cta: {
       heading: "Ready to sketch your trip?",
       body: "Answer six questions and we'll map a route that actually makes sense — the regions, the rhythm, and the things most people get wrong.",
@@ -314,6 +324,16 @@ export const t = {
         { name: "Argentina", flag: "🇦🇷", tagline: "Buenos Aires, región vitivinícola, Patagonia", highlight: "El Fitz Roy y los viñedos en el mismo viaje" },
         { name: "Perú", flag: "🇵🇪", tagline: "Valle Sagrado, Amazonas, escena gastronómica de Lima", highlight: "Mucho más profundo de lo que Machu Picchu sugiere" },
       ],
+    },
+    featured: {
+      eyebrow: "Destacado · 2026–2027",
+      heading: "Bocas del Toro, antes de que todos lo descubran",
+      body: "Para la temporada 2026–2027 estamos diseñando viajes en grupos reducidos y privados a Bocas del Toro — el archipiélago caribeño donde la selva se encuentra con el mar. Canales de manglar, olas para surfear y cabañas sobre el agua, planificados en torno a los meses más tranquilos y la mejor luz.",
+      cards: [
+        { label: "Navegando entre islas", caption: "Red Frog, Cayo Zapatilla y las bahías tranquilas que quedan en medio — con un itinerario que evita a los excursionistas de un día." },
+        { label: "Surf y mañanas sin prisa", caption: "Agua cálida, olas constantes y un pueblo costero al que llamar hogar por una semana." },
+      ],
+      note: "Salidas limitadas — fechas 2026–2027 disponibles próximamente.",
     },
     cta: {
       heading: "¿Listo para esbozar tu viaje?",
