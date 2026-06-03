@@ -20,36 +20,30 @@ export default function TripStyles() {
           {tr.tripStyles.body}
         </p>
 
-        <div className="space-y-0">
+        <div className="grid sm:grid-cols-2 gap-x-10 gap-y-14">
           {tr.tripStyles.styles.map((style, i) => {
             const meta = tripStyleMeta[i];
             return (
-              <div
-                key={style.label}
-                className="border-t border-stone-200 py-7 grid sm:grid-cols-[200px_1fr_2fr] gap-6 items-center last:border-b"
-              >
+              <div key={style.label} className="flex flex-col">
                 {/* Photo */}
-                <div className="aspect-[4/3] sm:aspect-[3/4] overflow-hidden rounded-sm bg-stone-200 relative w-full">
+                <div className="aspect-[4/3] overflow-hidden rounded-sm bg-stone-200 relative w-full mb-5">
                   <Image
                     src={meta.photo}
                     alt={style.label}
                     fill
                     className={`object-cover${meta.id === "holistic" ? " object-left" : ""}`}
-                    sizes="200px"
+                    sizes="(max-width: 640px) 100vw, 480px"
                   />
                   <div className="absolute inset-0 bg-stone-900/20" />
                 </div>
 
-                {/* Label + headline */}
-                <div className="sm:pt-1">
-                  <h3 className="font-serif text-xl text-stone-900 mb-2">{style.label}</h3>
-                  <p className="text-xs font-medium uppercase tracking-widest text-amber-700 leading-relaxed">
-                    {style.headline}
-                  </p>
-                </div>
-
-                {/* Description */}
-                <p className="text-stone-600 leading-relaxed">{style.description}</p>
+                {/* Label + description */}
+                <h3 className="font-serif text-2xl text-stone-900 mb-3 leading-snug">
+                  {style.label}
+                </h3>
+                <p className="text-stone-600 leading-relaxed">
+                  {style.description}
+                </p>
               </div>
             );
           })}
