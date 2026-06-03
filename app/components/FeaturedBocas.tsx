@@ -4,8 +4,10 @@ import Image from "next/image";
 import { useLang } from "@/lib/i18n/LanguageContext";
 
 // Two landscape photos for the featured Bocas section.
-// Swap "/photos/placeholder.jpg" for real photo paths under /public/photos.
-const PHOTOS = ["/photos/placeholder.jpg", "/photos/placeholder.jpg"];
+const PHOTOS = [
+  "/photos/styles/PureRootsV2-142.jpg",
+  "/photos/styles/CoralWing-43.jpg",
+];
 
 export default function FeaturedBocas() {
   const { tr } = useLang();
