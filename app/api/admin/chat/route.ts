@@ -9,6 +9,7 @@ const GITHUB_TOKEN = process.env.GITHUB_TOKEN ?? "";
 const GITHUB_REPO = process.env.GITHUB_REPO ?? "bladen-reese/Ile---Travel-Agency";
 const GITHUB_BRANCH = process.env.GITHUB_BRANCH ?? "main";
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD ?? "";
+const VERCEL_DEPLOY_HOOK = process.env.VERCEL_DEPLOY_HOOK ?? "";
 
 const CORE_FILES = [
   "lib/i18n/translations.ts",
@@ -336,6 +337,10 @@ export async function POST(req: NextRequest) {
         if (res.ok) applied.push({ path: op.path, description: `Updated ${op.path}` });
         else failed.push(op.path);
       }
+    }
+
+    if (applied.length > 0 && VERCEL_DEPLOY_HOOK) {
+      fetch(VERCEL_DEPLOY_HOOK, { method: "POST" }).catch(() => {});
     }
 
     let reply = parsed.reply;

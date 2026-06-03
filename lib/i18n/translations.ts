@@ -76,10 +76,10 @@ export const t = {
         {
           label: "Beaches & islands",
           headline: "Caribbean, Pacific, and river beaches — very different things",
-          description: "The Caribbean's turquoise and the Pacific's grey-green are completely different waters with different crowds and different things to do. Island archipelagos reached by boat, volcanic black sand beaches, freshwater river beaches surrounded by jungle — we match the coast to what you're actually after.",
-          typicalShape: "Usually 3–4 nights at the coast after a highlands or city section",
-          budgetNote: "Island transfers push costs up; we know which ones are worth it.",
-          bestFor: "Families and couples; works best as part of a longer mixed trip",
+          description: "We love introducing you to different types of coastlines across different locations, with a plan that fits your needs. It can include rest days with beautiful views and/or different tours — boat trips, surf or diving lessons, snorkeling, kayaking, catamaran rides, and many more coastal adventures.",
+          typicalShape: "",
+          budgetNote: "",
+          bestFor: "",
         },
         {
           label: "Slow travel & wellness",
