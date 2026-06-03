@@ -107,8 +107,8 @@ export const t = {
         },
         {
           label: "Honeymoon & romance",
-          headline: "Private, scenic, and worth celebrating",
-          description: "Highland routes with panoramic views, Pacific sunsets from jungle lodges, wine regions with long dinners, Caribbean islands where the days are yours. Romantic doesn't mean expensive — it means private, unhurried, and curated around the two of you.",
+          headline: "Days built for two — celebrated properly",
+          description: "We design journeys of special days as a couple — to celebrate, to share outstanding landscapes, and to live adventures shaped around each traveler's personality. Unhurried, private, and built around the two of you.",
           typicalShape: "Mix of dramatic landscapes and comfortable bases; some upgraded accommodation; private transfers where it matters",
           budgetNote: "Mid to upper-mid. A few key upgrades make the difference without breaking the budget.",
           bestFor: "Couples celebrating something; honeymoons that want substance alongside the scenery; anniversaries",
@@ -288,8 +288,8 @@ export const t = {
         },
         {
           label: "Luna de miel y romance",
-          headline: "Privado, con paisaje, y que valga la pena celebrar",
-          description: "Rutas de montaña con vistas panorámicas, atardeceres sobre el Pacífico desde lodges en la selva, regiones vitivinícolas con cenas largas, islas caribeñas donde los días son tuyos. Romántico no significa caro — significa privado, sin prisas y pensado para los dos.",
+          headline: "Días especiales en pareja, celebrados como se merecen",
+          description: "Creamos jornadas de días especiales en pareja, para celebrar y compartir excelentes vistas, vivir aventuras adaptadas a las personalidades de los viajeros. Sin prisas, en privado y pensado para los dos.",
           typicalShape: "Combinación de paisajes dramáticos y bases cómodas; algo de alojamiento mejorado; traslados privados donde importa",
           budgetNote: "Medio a medio-alto. Algunas mejoras clave marcan la diferencia sin romper el presupuesto.",
           bestFor: "Parejas que celebran algo; lunas de miel que quieren experiencia además de paisaje; aniversarios",
