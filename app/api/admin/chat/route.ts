@@ -133,7 +133,6 @@ function removeStyleFromTranslations(content: string, id: string): string {
   const result: string[] = [];
   let inBlock = false;
   let braceDepth = 0;
-  let skipBlock = false;
   let i = 0;
 
   // We need to identify which positional entry corresponds to this id.
@@ -168,7 +167,6 @@ function removeStyleFromTranslations(content: string, id: string): string {
         const matches = hints.some(h => lookahead.includes(h));
         if (matches) {
           inBlock = true;
-          skipBlock = true;
           braceDepth = 1;
           i++;
           continue;
