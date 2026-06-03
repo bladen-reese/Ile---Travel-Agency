@@ -60,7 +60,7 @@ export const t = {
         {
           label: "Culture & history",
           headline: "Colonial cities, pre-Columbian sites, living traditions",
-          description: "Town centers built around central plazas, archaeological sites that take context to understand, living indigenous textile and craft traditions, local markets that haven't been rebuilt for tourism. The depth here takes time to access — we help you find the right people and the right entry points.",
+          description: "Trips to historic destinations and landscapes where you can discover local architecture, enjoy traditional cuisine and culinary experiences, take part in personalized tours, and experience traditional dates, festivals, and local celebrations.",
           typicalShape: "",
           budgetNote: "",
           bestFor: "",
@@ -225,7 +225,7 @@ export const t = {
         {
           label: "Cultura e historia",
           headline: "Ciudades coloniales, sitios precolombinos, tradiciones vivas",
-          description: "Centros históricos construidos alrededor de plazas centrales, sitios arqueológicos que requieren contexto para entenderse, tradiciones indígenas vivas de textiles y artesanías, mercados locales que no fueron reconstruidos para el turismo. La profundidad aquí lleva tiempo acceder — te ayudamos a encontrar las personas y los puntos de entrada correctos.",
+          description: "Salidas a destinos y paisajes históricos, donde podrás descubrir la arquitectura local, disfrutar de comidas típicas y experiencias gastronómicas, participar en tours personalizados y conocer fechas tradicionales, festividades y celebraciones locales.",
           typicalShape: "",
           budgetNote: "",
           bestFor: "",
