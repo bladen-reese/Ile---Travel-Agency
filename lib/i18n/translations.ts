@@ -156,7 +156,7 @@ export const t = {
       body: "For the 2026–2027 season we're building small-group and private trips to Bocas del Toro — the Caribbean archipelago where the jungle meets the water. Mangrove channels, surf breaks, and overwater cabins, planned around the calmest months and the best light.",
       cards: [
         { label: "Island-hopping by boat", caption: "Red Frog, Cayo Zapatilla, and the quiet bays in between — on a schedule that dodges the day-trippers." },
-        { label: "Surf & slow mornings", caption: "Warm water, consistent breaks, and a coastal town to call home for a week." },
+        { label: "Through the mangrove channels", caption: "Paddle the still morning water between the red mangrove roots, with the jungle arching right over the bow." },
       ],
       note: "Limited departures — 2026–2027 dates opening soon.",
     },
@@ -331,7 +331,7 @@ export const t = {
       body: "Para la temporada 2026–2027 estamos diseñando viajes en grupos reducidos y privados a Bocas del Toro — el archipiélago caribeño donde la selva se encuentra con el mar. Canales de manglar, olas para surfear y cabañas sobre el agua, planificados en torno a los meses más tranquilos y la mejor luz.",
       cards: [
         { label: "Navegando entre islas", caption: "Red Frog, Cayo Zapatilla y las bahías tranquilas que quedan en medio — con un itinerario que evita a los excursionistas de un día." },
-        { label: "Surf y mañanas sin prisa", caption: "Agua cálida, olas constantes y un pueblo costero al que llamar hogar por una semana." },
+        { label: "Entre los canales de manglar", caption: "Rema en el agua quieta de la mañana entre las raíces de mangle rojo, con la selva arqueándose sobre la proa." },
       ],
       note: "Salidas limitadas — fechas 2026–2027 disponibles próximamente.",
     },
