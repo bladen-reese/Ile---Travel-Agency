@@ -18,12 +18,9 @@ export default function FeaturedBocas() {
         <p className="text-xs font-medium uppercase tracking-[0.2em] text-amber-500 mb-4">
           {tr.featured.eyebrow}
         </p>
-        <h2 className="font-serif text-4xl sm:text-5xl text-white mb-6 leading-tight">
+        <h2 className="font-serif text-4xl sm:text-5xl text-white mb-12 leading-tight max-w-2xl">
           {tr.featured.heading}
         </h2>
-        <p className="text-stone-400 text-lg leading-relaxed mb-12 max-w-2xl">
-          {tr.featured.body}
-        </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {tr.featured.cards.map((card, i) => {
