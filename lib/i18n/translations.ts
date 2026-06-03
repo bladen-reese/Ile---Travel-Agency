@@ -152,7 +152,7 @@ export const t = {
     },
     featured: {
       eyebrow: "Featured · 2026–2027",
-      heading: "Open agenda for trips to the paradisiacal Caribbean beaches of Bocas del Toro 2026–2027",
+      heading: "Open calendar for trips to the paradisiacal Caribbean beaches of Bocas del Toro 2026–2027",
       body: "",
       cards: [
         { label: "Island-hopping by boat", caption: "Red Frog, Cayo Zapatilla, and the quiet bays in between — on a schedule that dodges the day-trippers." },
