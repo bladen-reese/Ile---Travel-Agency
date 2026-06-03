@@ -42,7 +42,7 @@ export const t = {
       ],
     },
     tripStyles: {
-      eyebrow: "How trips vary",
+      eyebrow: "",
       heading: "Different travelers want different things",
       body: "Budget, duration, and destination matter — but the biggest variable is what you actually want to do. Here's how we think about each style and what it changes about the trip.",
       shape: "Shape",
@@ -231,7 +231,7 @@ export const t = {
       ],
     },
     tripStyles: {
-      eyebrow: "Cómo varían los viajes",
+      eyebrow: "",
       heading: "Cada viajero busca algo diferente",
       body: "El presupuesto, la duración y el destino importan, pero la mayor variable es lo que realmente quieres hacer. Así pensamos cada estilo y lo que cambia en el viaje.",
       shape: "Estructura",
