@@ -26,7 +26,7 @@ export default function TripStyles() {
             return (
               <div
                 key={style.label}
-                className="border-t border-stone-200 py-10 grid sm:grid-cols-[220px_1fr_2fr] gap-8 items-start last:border-b"
+                className="border-t border-stone-200 py-7 grid sm:grid-cols-[200px_1fr_2fr] gap-6 items-center last:border-b"
               >
                 {/* Photo */}
                 <div className="aspect-[4/3] sm:aspect-[3/4] overflow-hidden rounded-sm bg-stone-200 relative w-full">
@@ -35,7 +35,7 @@ export default function TripStyles() {
                     alt={style.label}
                     fill
                     className={`object-cover${meta.id === "holistic" ? " object-left" : ""}`}
-                    sizes="220px"
+                    sizes="200px"
                   />
                   <div className="absolute inset-0 bg-stone-900/20" />
                 </div>
@@ -48,24 +48,8 @@ export default function TripStyles() {
                   </p>
                 </div>
 
-                {/* Description + details */}
-                <div>
-                  <p className="text-stone-600 leading-relaxed mb-5">{style.description}</p>
-                  <div className="space-y-2">
-                    <div className="flex gap-3 text-sm">
-                      <span className="text-stone-400 shrink-0 w-24">{tr.tripStyles.shape}</span>
-                      <span className="text-stone-700">{style.typicalShape}</span>
-                    </div>
-                    <div className="flex gap-3 text-sm">
-                      <span className="text-stone-400 shrink-0 w-24">{tr.tripStyles.budget}</span>
-                      <span className="text-stone-700">{style.budgetNote}</span>
-                    </div>
-                    <div className="flex gap-3 text-sm">
-                      <span className="text-stone-400 shrink-0 w-24">{tr.tripStyles.bestFor}</span>
-                      <span className="text-stone-700">{style.bestFor}</span>
-                    </div>
-                  </div>
-                </div>
+                {/* Description */}
+                <p className="text-stone-600 leading-relaxed">{style.description}</p>
               </div>
             );
           })}
