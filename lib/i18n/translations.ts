@@ -74,14 +74,6 @@ export const t = {
           bestFor: "",
         },
         {
-          label: "Beaches, islands, jungles, forests, cities & mountains",
-          headline: "Special combinations across every kind of landscape",
-          description: "Special combinations designed so you can discover the destinations of your dreams — from paradise beaches on the coast to whatever natural setting you're looking for, for an unforgettable experience.",
-          typicalShape: "",
-          budgetNote: "",
-          bestFor: "",
-        },
-        {
           label: "Rest & disconnect",
           headline: "A hammock, a view, and nothing on the schedule",
           description: "Quiet spaces away from crowds, with genuine comfort, excellent service, and nature all around.",
@@ -90,7 +82,7 @@ export const t = {
           bestFor: "",
         },
         {
-          label: "Holistic retreat",
+          label: "Holistic",
           headline: "Plant medicine, ceremonies, and intentional healing",
           description: "Wellness activities including yoga, massage, meditation, dance, gatherings, ceremonies, retreats, events, and artistic expression.",
           typicalShape: "",
@@ -250,14 +242,6 @@ export const t = {
           bestFor: "",
         },
         {
-          label: "Playas, islas, selvas, bosques, ciudades y montañas.",
-          headline: "Combinaciones especiales para todo tipo de paisaje",
-          description: "Combinaciones especiales diseñadas para que conozcas los destinos de tus sueños, desde playas paradisíacas en la costa hasta el entorno natural que estés buscando para vivir una experiencia inolvidable.",
-          typicalShape: "",
-          budgetNote: "",
-          bestFor: "",
-        },
-        {
           label: "Descanso y desconexión",
           headline: "Una hamaca, una vista y nada en la agenda",
           description: "Descansar en espacios tranquilos, sin multitudes, con gran comodidad, excelente servicio y rodeados de naturaleza.",
@@ -266,7 +250,7 @@ export const t = {
           bestFor: "",
         },
         {
-          label: "Retiro holístico",
+          label: "Holístico",
           headline: "Medicina de plantas, ceremonias y tiempo real de retiro",
           description: "Actividades de bienestar como yoga, masajes, meditaciones, danzas, encuentros, ceremonias, retiros, eventos y expresiones artísticas.",
           typicalShape: "",
